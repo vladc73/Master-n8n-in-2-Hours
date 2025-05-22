@@ -15,10 +15,15 @@ The video aims to:
 ## Key Features Covered in the Tutorial
 The tutorial covers a wide range of topics, including:
 •	Setting up triggers and actions to initiate workflows.
+
 •	Mapping variables and utilizing functions, filters, and switches for data processing.
-•	Implementing webhooks and HTTP requests to connect with external services.n8n Ai Agent Pro
-•	Building AI agents using Retrieval-Augmented Generation (RAG) systems, integrating with tools like Google Drive, and handling PDF documents.n8n Ai Agent Pro
-•	Exploring advanced features such as iterators, array aggregators, and custom code execution within workflows.n8n Ai Agent Pro
+
+•	Implementing webhooks and HTTP requests to connect with external services.
+
+•	Building AI agents using Retrieval-Augmented Generation (RAG) systems, integrating with tools like Google Drive, and handling PDF documents.
+
+•	Exploring advanced features such as iterators, array aggregators, and custom code execution within workflows.
+
 By following this tutorial, viewers can develop a solid foundation in using n8n for workflow automation, enabling them to streamline tasks, improve efficiency, and leverage AI capabilities in their personal or professional projects.
 
 
