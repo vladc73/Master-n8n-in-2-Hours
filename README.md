@@ -55,29 +55,53 @@ By following this tutorial, viewers can learn to build AI agents that automate c
 
 ## Chapters
 0:00 Intro
+
 7:58 What is n8n?
+
 8:43 n8n pricing
+
 9:46 Sign up for n8n
+
 11:15 n8n UI
+
 15:36 Create a trigger
+
 24:36 Create an action
+
 28:20 Mapping variables in n8n
+
 33:31 Functions in n8n
+
 40:51 Filters in n8n
+
 43:55 Switch in n8n
+
 49:23 Merge in n8n
+
 52:42 Create your first AI agent
+
 1:18:45 Create third reporting workflow
+
 1:22:03 Data types in n8n
+
 1:28:18 Iterators on arrays 
+
 1:29:25 Array aggregator
+
 1:34:18 Code in n8n
+
 1:43:19 Webhooks in n8n
+
 1:46:22 HTTP requests in n8n
+
 1:52:04 Building a RAG AI agent
+
 1:52:36 Google Drive integration 
+
 1:57:35 Adding PDF documents into RAG system
+
 1:59:30 Adding data into vector store
+
 2:05:11 Retrieving data from RAG chatbot
 
 
