@@ -14,6 +14,7 @@ The video aims to:
 
 ## Key Features Covered in the Tutorial
 The tutorial covers a wide range of topics, including:
+
 •	Setting up triggers and actions to initiate workflows.
 
 •	Mapping variables and utilizing functions, filters, and switches for data processing.
