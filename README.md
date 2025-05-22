@@ -40,6 +40,17 @@ The video demonstrates the integration of several tools within n8n workflows, in
 
 •	Webhooks and HTTP Requests: For connecting with external services and APIs, enabling the AI agents to interact with various platforms.
 
+## AI Agents Created
+The tutorial guides viewers through the creation of AI agents with capabilities such as:
+
+•	Retrieval-Augmented Generation (RAG) AI Agent: An AI agent that combines retrieval mechanisms with generative models to provide contextually relevant responses.
+
+•	Document Processing Agent: An agent capable of handling PDF documents, extracting information, and integrating it into workflows
+.
+•	Data Management Agent: An agent that interacts with vector stores to store and retrieve data efficiently.
+
+By following this tutorial, viewers can learn to build AI agents that automate complex tasks, integrate multiple services, and enhance productivity through intelligent automation.
+
 
 ## Tutorial
-<a href="Transcript">Transcript</a>
+<a href="">Transcript</a>
