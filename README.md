@@ -115,12 +115,5 @@ By following this tutorial, viewers can learn to build AI agents that automate c
 
 2:05:11 Retrieving data from RAG chatbot
 
-
-
-
-
-
-
-
 ## Tutorial
-<a href="">Transcript</a>
+<a href="https://github.com/vladc73/Master-n8n-in-2-Hours/blob/main/Master%20n8n">Transcript</a>
