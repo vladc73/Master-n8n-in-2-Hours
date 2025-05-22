@@ -27,14 +27,19 @@ The tutorial covers a wide range of topics, including:
 By following this tutorial, viewers can develop a solid foundation in using n8n for workflow automation, enabling them to streamline tasks, improve efficiency, and leverage AI capabilities in their personal or professional projects.
 
 
-## Key Takeaways
-•	Accessibility: N8N offers a user-friendly platform for building AI agents without extensive programming knowledge.
+## Tools Integrated in the Tutorial
+The video demonstrates the integration of several tools within n8n workflows, including:
 
-•	Flexibility: The tool supports integration with various AI services, allowing for customizable agent functionalities.
+•	OpenAI: For natural language processing tasks, enabling the AI agents to understand and generate human-like text.
 
-•	Scalability: Workflows created in N8N can be scaled to handle more complex tasks as needed.
+•	Google Drive: Used for storing and retrieving documents, facilitating document management within workflows.
 
-•	Practical Application: The tutorial emphasizes real-world use cases, showcasing how AI agents can automate and streamline tasks.
+•	PDF Document Handling: Incorporating PDF documents into workflows, allowing AI agents to process and extract information from PDFs.
+
+•	Vector Stores: Utilized for storing and retrieving data in vector format, supporting advanced search and retrieval operations.
+
+•	Webhooks and HTTP Requests: For connecting with external services and APIs, enabling the AI agents to interact with various platforms.
+
 
 ## Tutorial
 <a href="Transcript">Transcript</a>
