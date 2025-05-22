@@ -45,8 +45,8 @@ The tutorial guides viewers through the creation of AI agents with capabilities 
 
 •	Retrieval-Augmented Generation (RAG) AI Agent: An AI agent that combines retrieval mechanisms with generative models to provide contextually relevant responses.
 
-•	Document Processing Agent: An agent capable of handling PDF documents, extracting information, and integrating it into workflows
-.
+•	Document Processing Agent: An agent capable of handling PDF documents, extracting information, and integrating it into workflows.
+
 •	Data Management Agent: An agent that interacts with vector stores to store and retrieve data efficiently.
 
 By following this tutorial, viewers can learn to build AI agents that automate complex tasks, integrate multiple services, and enhance productivity through intelligent automation.
