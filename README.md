@@ -12,15 +12,15 @@ The video aims to:
 
 •	Provide insights into best practices for testing, deploying, and scaling automated workflows.
 
+## Key Features Covered in the Tutorial
+The tutorial covers a wide range of topics, including:
+•	Setting up triggers and actions to initiate workflows.
+•	Mapping variables and utilizing functions, filters, and switches for data processing.
+•	Implementing webhooks and HTTP requests to connect with external services.n8n Ai Agent Pro
+•	Building AI agents using Retrieval-Augmented Generation (RAG) systems, integrating with tools like Google Drive, and handling PDF documents.n8n Ai Agent Pro
+•	Exploring advanced features such as iterators, array aggregators, and custom code execution within workflows.n8n Ai Agent Pro
+By following this tutorial, viewers can develop a solid foundation in using n8n for workflow automation, enabling them to streamline tasks, improve efficiency, and leverage AI capabilities in their personal or professional projects.
 
-![AI agent project 1](https://github.com/user-attachments/assets/094f0aa0-0672-4fa0-a9e7-2e86b42d47b1)
-
-## Key Steps Covered in the Tutorial
-1.	Introduction to N8N: An overview of N8N's interface and its role in automating workflows.
-2.	Setting Up the Environment: Guidance on installing N8N and configuring it for AI agent development.
-3.	Integrating AI Tools: Instructions on connecting N8N with AI services like GPT-4 to enhance agent capabilities.
-4.	Designing Workflows: Step-by-step creation of workflows that enable AI agents to perform tasks such as data processing, decision-making, and responding to user inputs.
-5.	Testing and Deployment: Demonstrations on how to test the AI agents within N8N and deploy them for real-world applications.
 
 ## Key Takeaways
 •	Accessibility: N8N offers a user-friendly platform for building AI agents without extensive programming knowledge.
