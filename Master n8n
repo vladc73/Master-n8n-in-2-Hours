@@ -1,0 +1,2499 @@
+Intro
+0:00
+what is going on guys it is jonno I'm so excited because today we're going to be talking about n8n this is a full crash
+0:07
+course on this platform to take you from a beginner to a professional in a matter
+0:12
+of just a few hours even if you've literally never come across this platform before you're scratching your
+0:18
+head you're like I've never seen this before this video is for you because you are going to learn every single thing
+0:23
+you need to know about naden in in that shell what this does is it acts as an automation platform to replace yourself
+0:30
+from having to do the mundane boring tasks that you absolutely freaking hate doing here's a couple examples for
+0:38
+example we can build on an AI agent that acts as an assistant that does all of the heavy lifting for you if you need to
+0:44
+upload documents to Google Drive or extract data from those documents no problem it can do that it can manage
+0:50
+your tasks it can manage your social media posting it can manage your Google calendar and email account or it can
+0:56
+even call people on your behalf to book things for you or if you want to you can
+1:01
+also web scrape the internet take Toronto landscapers for example if you're doing some cold email Outreach
+1:07
+then long gone are the days that that you actually have to come in here and go through every listing one by one that
+1:13
+would be so boring and take so much time and instead we're going to automatically pull that data out and push that into a
+1:19
+Google spreadsheet just like this the next thing that you can do is generate documents now my business lives off
+1:28
+these documents I mean we pump out like 6 16 of these documents every single day there's over 150 variables pretty much
+1:33
+on this one document that we automate it would take like 30 minutes but this is 100% automated using something like NN
+1:41
+or it can manage your calendar inbox or it can manage your Gmail inbox or you can deal with real time upto-date
+1:48
+analytics on your entire performance whether it comes to marketing or sales
+1:53
+or fulfillment all of this kind of stuff can be automated we're just connecting in all these different applications
+1:58
+through nadn and so TR traditionally what most people would do if they wanted to get started with NN is they'd type in
+2:04
+Google being like let me get started with nadn furiously with like two fingers there and then open up this very
+2:09
+quick start guide which is probably the longest start guide I've ever seen in my entire life this just gives me carpel tunnel scrolling down the page and you
+2:16
+can treat this like the Amazon rainforest where you're just like trying to like struggle your way through and
+2:21
+bushwack all the way through that freaking documentation or you could just watch a video like this that's going to
+2:27
+nicely summarize it in not too much time now I did a similar video on make.com here where I did a crash course in 2
+2:34
+hours and you can see the amount of comments here this has really helped people out there's just countless
+2:41
+comments over and over and over again about people saying hey I was scared this is an intimidating software and I
+2:48
+was putting this off and I watched this video and I really feel confident to take that first step uh build out my
+2:54
+first Automation and implement this into my business and you can just see these comments and scroll down for days right
+3:00
+and this is exactly what we're going to be doing in this particular video we're going to be teaching you everything you
+3:05
+need to know about NN let's dive into what that actually looks like we're building out five scenarios now the cool
+3:12
+thing about these scenarios is that they actually work and they're actually beneficial to you right I'm not teaching
+3:18
+you some BS scenario where you're just never going to use it so let's talk about the first scenario here so if
+3:23
+you're running a service-based business you probably depend on lead generation as the lifeblood of your business and
+3:29
+something like this when somebody inquires on your website we're going to automatically add them to a Google sheet
+3:35
+okay and then we're going to send them an email and then we're going to notify our team to give them a call so that we
+3:42
+can jump on a call within 60 seconds now the data is out if you call within 60 seconds you increase your conversion
+3:48
+rate by 391 per. so this one workflow alone is going to make you up to four
+3:53
+times the amount of money if you implement it properly right so just that alone can be absolutely gamechanging the
+3:59
+next thing we're going to build out is an AI agent that takes care of you know all a lot of tasks for you so if you
+4:05
+want something to you know automatically remind you in the morning hey you know tell me about my calendar for the day
+4:10
+tell me about my um upcoming tasks for the day you can automatically pull that in you can update it you can create
+4:16
+things we're going to be building this out and this is just going to be your own personal AI assistant to do some of the heavy lifting for you in your given
+4:23
+day the next thing we're going to do is build a sub agent and attach it into the main agent that we just built and in
+4:29
+this this what we're going to do is we're going to send you a daily report every single day if there are leads that
+4:35
+came in from that workflow that you did not call right if somebody filled out that form and you didn't call them we're
+4:42
+going to send you a daily update saying these are the people that you still have to call because at the end of the day if
+4:47
+you didn't call those people you're leaving money on the table and I don't like the idea of leaving money on the table I'm sure you don't either and so
+4:53
+we're going to make sure that you um you have a list of all the people that you or your sales team forgot to call on
+4:59
+that give day the next thing that we're going to be talking about is some Advanced functionality like web Hooks and HTTP requests I say that kind of
+5:06
+loosely because web hooks are like probably I would say this is the piece of functionality I use the most in these
+5:13
+platforms and so this is really critical to learn essentially web hooks or how you receive data into it's like an input
+5:19
+into naden and in HTTP request is a lot of the time sending data outside of
+5:25
+naden in addition to much other stuff and we'll get over get into that later on and then lastly we're going to be
+5:31
+building out a rag system this is going to be an advanced AI agent that you can
+5:37
+build your own database with and so those are the five different automations we're building out just please keep in
+5:43
+mind that all of the blueprints for all of these automations will be free and
+5:49
+you can download them in the description once you go ahead and do that you can import them by clicking these three dots
+5:54
+and then import the file into your naden account I can't stress the enough
+6:00
+because the reality is is it's nice to watch a video like this but ultimately speaking the real learning comes when
+6:06
+you walk through the problems yourself you encounter the errors you encounter the bugs and you work through them
+6:12
+there's going to be nothing that's going to be more powerful than you just spending the extra 2 minutes downloading all the blueprints and following along
+6:18
+with me I promise you if you do that you're going to be super thankful because you're going to really learn this stuff so that you can go on and
+6:25
+implement it into your own business or maybe sell these things to other people all of that kind of stuff stuff right
+6:30
+and so that's the first thing um all of the applications we're using in these are going to be free like there's
+6:35
+nothing that you have to pay for with the exception of one which is chat gbt
+6:41
+we're using the API here and you have to have a minimum balance of $5 if you do not want to spend that you do not have
+6:46
+to build out these modules alongside with me and you can just skip over to the next but this is kind of unavoidable
+6:52
+when you're dealing with apis when it comes to um uh language models like
+6:58
+Chachi BT and we're going to be getting into this later on even if you decide to skip over this it's still going to be
+7:03
+super useful this tutorial and also all of the blueprints that we're building out are going to be real scenarios with
+7:10
+real practical use cases that you can probably implement into your life every single day and if you guys are
+7:16
+interested in content like this I highly recommend subscribing to my channel because I'm going to be building out
+7:21
+Solutions just like this every single day you can see these videos right here are all different AI agents that you can
+7:28
+build and and download for free and walk through with me I'm going to be releasing content like this all the
+7:34
+freaking time and if you want to take it one step further you can join my school Community we just launched it like 7
+7:40
+days ago we already have 120 members and this is for people that want to take AI agents AI automation all that kind of
+7:46
+stuff to the next level you can have access to me on weekly calls you can get 100 plus videos that have been released
+7:52
+on YouTube and all that kind of stuff so with that being said guys let's dive into it let's build it out right now so
+What is n8n?
+7:58
+the first thing we're going to do is head over to nn. to get started here and I want to
+8:03
+briefly describe what this platform actually does so it is an automation platform that essentially connects in
+8:08
+multiple different applications so take as an example somebody fills out a form maybe this is a Google form or any of
+8:14
+the other seemingly million other softwares out there that do form submissions then you can do lots of things like you could send a message in
+8:21
+slack so for example if a new lead inquires on a form you could send something to your sales team being like hey can somebody give this a call
+8:28
+automatically or for example if somebody fills out a recruitment form and you hire them you could add them as a user
+8:34
+in slack and then update their profile and so there's that's just like one simple example but there's literally
+8:39
+thousands of applications that you can connect into NAD now in terms of the pricing it starts at 20 pounds per month
+n8n pricing
+8:46
+and it goes up from there but the cool thing is is if you compare this to a one toone substitute like zapier or make.com
+8:52
+you actually pay for workflow executions instead of specific modules and so what I mean by that is like take a workflow
+8:58
+like this this this is just all one workflow so you're going to pay essentially for all of these different
+9:04
+things like You're Just paying once for everything whereas in something else like an operation you might be paying
+9:09
+like once for this once for that once for that once for that and so this is actually as of the time of this
+9:15
+recording probably the most economical automation platform on the marketplace today and if you guys are techsavvy um
+9:22
+you can also self-host this on your own website and you can do this for free
+9:27
+right or you could just hire somebody on something like fiverr.com or upwork and they can help you set this up so that
+9:33
+it's self-hosted and then you're paying no money right in the for the purposes of this tutorial I'm not going to be
+9:39
+going into self-hosting but essentially that is an option for you so what we're going to do now is we're going to sign
+9:44
+up for an account together by hitting the sign uh sign in button here and I'm actually going to go ahead and start a
+Sign up for n8n
+9:50
+free trial and I'm going to enter in my information ABC company and I'm just
+9:56
+going to enter in my password here and then I'm just going to maybe add in my
+10:02
+uh my credentials and we're going to go ahead and try for free ABC oh oops I'm
+10:09
+just going to put in oops my email here and try for free okay sweet so we're
+10:16
+almost there um we're just going to receive an email confirmation okay and
+10:21
+here is the email and we can just go ahead and click the verify profile and we're pretty much good to go
+10:27
+everything's good so we started our free trial and we can just log in and start using this software immediately they're
+10:34
+going to ask for a quick survey which I'm going to give real beneficial results to their team I'm going to spend
+10:40
+a lot of time just making sure it's very th I'm just kidding I'm just going to go in and put whatever random answer I can possibly put in here to speed this
+10:46
+process up as quickly as possible and then it's going to ask you to invite people you can just go ahead and skip this and we're going to start this
+10:52
+workspace they do have these videos kind of walking through how this software works but essentially this is yeah this
+11:00
+is the purpose of the video that you're watching right now and so you can just essentially skip over this because we're getting into way more detail than what
+11:07
+these guys are mentioning here and so we're ready to go we can start automating so we're going to go into the
+11:13
+platform now there's a lot of different things going on all across the screen
+n8n UI
+11:19
+and you can see that when this eventually loads there's a lot of different stuff I'm just going to keep this nice short and sweet pretty much
+11:26
+every single thing on this page possibly that you can in terms of buttons is BS and you're never going to ever click it
+11:33
+ever under any circumstances except for like adding a project here and just
+11:38
+creating a workflow like that is literally the one and the only purpose of this software you can go and you can
+11:44
+get templates right these are like free templates that you could download but these are just super uh limited and
+11:50
+you'll find really quickly that you're just never going to use it I have used these platforms for like 10 years and
+11:56
+sorry six years at a minimum never used it so what we're going to going to do is we're just going to talk about one thing
+12:02
+here which is you can add a project okay and this project could be like ABC
+12:07
+company is my my company name and this is like your one project folder that you
+12:12
+can have so you have a personal project folder and then you have a company project folder and you can store any
+12:18
+workflows and this is what a workflow is anytime you build one of these out you can store it in either your personal or
+12:24
+your company profile so what we're going to do is we're going to go ahead and we're going to to create our first
+12:30
+workflow together we've clicked that button congratulations you've made it this far we're already we're already uh
+12:38
+on a on a rooll right now and making some good progress and so essentially we've gotone into the uh the UI for
+12:45
+creating workflows before I even touch this button I want to break down what's going on here so in other words you can
+12:51
+move around right and you can zoom out and in and you can also do that here so
+12:57
+I can zoom in I can zoom out I can uh Center it again and so these are kind of
+13:02
+the things that you can do and you can also revert backwards if you want to I don't really use that that much but just
+13:10
+in case you were wondering you can do that you can also name this workflow and I'm going to go ahead and I'm going to
+13:15
+name it new lead and maybe I want to add a tag a tag is just really for something for you to categorize these right you
+13:22
+could have something for sales something for marketing something for Recruitment and then you can just keep it nice and
+13:27
+organized so that you can find workflows that you build based on the tags that you add onto them and so that's more or
+13:34
+less that we have an editor an executions mode so essentially between editor and executions editor is when
+13:41
+you're dabbling you're creating things you're you're building right and then with the executions this is more like
+13:47
+the history or the runs or the executions that you've had in the past the reason why you'd want to go to this
+13:52
+and we're going to go to this later on is because maybe there's an error right and this is very common in these in the
+13:59
+applications where there's errors and you have to debug or figure out why there is an error and see the logs of a
+14:06
+run right and so that's where the executions come in and we're going to circle back to this later on you can turn the workflow on and off with this
+14:14
+toggle you can share this with people you can save the workflow up here every single time you can see it's grayed out
+14:20
+right now because there's nothing to save or I can just hit command s and save it as well automatically so if I
+14:26
+just hit command s you'll see that it saved automatically there or controls if you're on a on a PC and so that's that's
+14:34
+more or less that you have workflow history right so you can see all of the different changes that you've made to
+14:40
+this particular workflow and you can revert back if you're like crap I made a mistake and I want to revert back so
+14:46
+that it's functional again past that you have these three dots up here you can duplicate this workflow you can download
+14:54
+this workflow you can import from a file or URL if you guys are copying my
+14:59
+workflows then you're going to want to import from a file which is in the blueprints Down Below in the description
+15:05
+of this past that you can delete the workflow and you have settings here I don't really come into here I don't
+15:11
+really change anything but essentially this is just giving you additional information on it um you can have you
+15:17
+know anyways like you just have things like time zones for example or whatnot
+15:23
+and so everything here I just keep the same but if you ever want to go into the
+15:28
+advaned settings you can go ahead and do so now onto the fun part we've kind of gone over everything that you need to
+15:34
+know in terms of the UI here what we're going to do is we're going to hit this massive plus button here okay and
+Create a trigger
+15:41
+essentially in this plus button this is called a trigger okay a trigger is the
+15:47
+first step so this workflow this telegram workflow right here this is the
+15:53
+trigger and then every single one of these other modules afterwards is an action and what the difference is is the
+16:00
+trigger starts the workflow the actions are what happens once the workflow is started okay so for example maybe I want
+16:08
+to go ahead and call this AI agent that would be an action maybe I want that to
+16:13
+essentially create a social media post or a blog post for me that is an action I want it to update my Google Calendar
+16:20
+that is an action right so all of those things are actions so essentially in
+16:25
+this we're just going to create a very simple trigger for now and we can add on
+16:32
+more um we can add on multiple triggers in NN but essentially what I'm going to
+16:37
+do is I'm just going to Showcase a couple common ones so you can trigger manually here which is just going to be
+16:42
+like hey when you click this the scenario runs this is great if you're looking to test things out pretty fast
+16:48
+and you just want to get something up and running you can also just delete that and then we're going to hit the plus button again and this time what
+16:54
+we're going to do is we're going to have an on chat message and it comes up with
+16:59
+this whole screen here there's nothing that really needs to be changed here it just works out of the box and you have
+17:06
+now this access to this chat button down here which we can click and we can start
+17:11
+typing in messages hey um this is a test and because we haven't set anything up
+17:16
+yet we sent the message but nothing's going to happen because nothing's set up
+17:22
+yet so I'm going to go ahead and delete that because the actual one the actual trigger that we want to use is on a form
+17:30
+submission so when somebody fills out a form on our website then we're going to go ahead and start this workflow so
+17:37
+let's go through this together so we have um at the at the start of this page
+17:43
+we have three different tabs here on the left hand side this is the input to the
+17:50
+tab so this is the data that's coming in in other words when somebody submits that form and they say their name is
+17:56
+johon O catli that will have that person person 's name on the right on the left hand side here and then on the other
+18:03
+side we have the output which we're sending to the next module so for example when this trigger happens we
+18:09
+send that right we send that to the next module here right and so what what's the
+18:15
+data that we're sending over here and that's going to be listed here and then essentially everything else on this page
+18:22
+is the system inputs so we can see on this page here that we have a URL here
+18:30
+right and this URL is going to be the form URL so if we were to open this up this would be the form URL and then we
+18:37
+have additional settings for this which we aren't actually going to touch which is like authentication essentially you
+18:43
+can like lock the form so somebody needs to have like a password or whatever but we're going to go ahead for the purpose
+18:49
+of this tutorial we're just going to create this form submission so I've gone ahead and I've clicked this and I'm I've
+18:54
+copied this into a new tab and we can see that right now the form trigger
+19:00
+isn't listening yet click test step button in your form trigger right so the
+19:06
+reason this is happening is because we haven't created the form yet so let's go ahead and do that the first thing that I
+19:11
+want to do here is I want to create the form title so let's go ahead and call
+19:17
+this test form okay and then what we're going to do because we have the form title is we're going to add in fields
+19:25
+right we're going to add in things like first name and last name and email and phone number and all that kind of stuff
+19:31
+so I'm going to do first name and this is going to be a text field here right
+19:38
+so you can change this to text to date to email to whatever I'm just going to
+19:44
+keep it simple and it's going to be a text field and we're going to add another form element here and this time it's going to be last name and we're
+19:51
+going to do this again to email and then let's just add a couple more uh things
+19:57
+to this form as well I want to add in budget I want to be like hey how much are we charging people and and this time
+20:05
+what we're going to do is we're actually going to change this element type here
+20:11
+and this time it's going to be a drop-down so we're going to choose from the drop-down list and it's going to
+20:17
+give us the option to enter in additional options here so what we can
+20:22
+do is we can have like a budget field here from like0 to $1,000 maybe one
+20:29
+client wants to spend between Z and $1,000 and the next client or the next option here is maybe like $1,000 plus
+20:37
+right and so those are the two options and then lastly we might have oops not an option here but we're going to have
+20:44
+another field here and this is going to be a message so maybe somebody wants to leave a a comment or message right and
+20:50
+so this is pretty much it we've entered in everything uh on this form and we can
+20:56
+come back to this URL here we can copy it by clicking on it and then we're going to enter this into another page
+21:03
+here we can still see that it's not listening yet because we have to hit this test step button here and now our
+21:09
+form has been created we've added in the first name and the last name and the email and the budget and the message and
+21:16
+all of the stuffs entered in so I'm going to go ahead and I'm going to add in my details here okay and we'll go
+21:23
+ahead and submit this form let's say in this instance we have a budget of $1,000 and I'm just going to leave like a test
+21:30
+message here we can go ahead and click submit and now that that form has been
+21:36
+submitted you have officially received data right and so we have our inputs and
+21:42
+the output is what we've received from the form so all of this data here is
+21:47
+going to be passed through to the next module which will be like something like Google Sheets and so we're on a roll so
+21:55
+far this is great we have all this information now there's a couple different ways to look at this
+22:00
+information we have table view which this probably looks pretty familiar to you if you've ever used Google Sheets or
+22:07
+or whatnot this this looks familiar you also have Json data here and you have
+22:12
+schema data this is all the same thing it's just three different ways of looking at the data differently and so
+22:20
+this is tabular data you have first name equals jno last name equals catli and then Json data is a different way of
+22:27
+formatting data this is the backbone of nadn and automation Platforms in general
+22:33
+it's just that usually you don't necessarily always see data like this but this is how data is usually
+22:39
+transferred from one application to the next on the internet and so similarly with the table you have first name
+22:45
+equals jono in Json and we're going to be getting into Json quite extensively later on you have the same thing but
+22:51
+this way this time it's first name equals jono and last name equals catli
+22:58
+and email equals this email right and so on and so forth so it's literally giving
+23:04
+you all of the data that you need in order to move on to the next step and
+23:10
+then lastly we have schema here and schema is just the third way of looking at it and the cool thing about schema
+23:16
+and I wish I chose maybe a different option here but it shows you the type of
+23:21
+field and these are all technically text fields and so they have the icon as a
+23:27
+here right and so there we go we've officially created our first trigger step now one more thing here that I want
+23:34
+to go over is that you can pin this data so what I mean by that is that now if we
+23:40
+want to test this workflow I'm going to click off of it and to click off I'm just clicking outside of this like on
+23:47
+the on the upper part here uh just to escape now if we test this workflow we
+23:52
+can test it as many times as we want to we don't have to go back to this form and submit it again because we just pin
+23:59
+the data which means that now moving forward every single time we don't have to go back and forth and test and waste
+24:04
+all this freaking time because it's just pinned and lastly we can edit this pin data so if I come in and edit the output
+24:11
+I could be like hey maybe I don't want test message I want to say
+24:16
+hey I'm interested in working with you and you can edit the test data here this
+24:23
+is like mock data that you can use for the rest of the workflow and again to exit out I'm just hitting outside of
+24:30
+these boxes here now the next thing is is that we can create our very first
+Create an action
+24:36
+module by hitting this plus button here okay and the first thing we're going to do is we're going to use Google Sheets
+24:42
+so I'm going to search by sheets up at the top here and we're going to go into Google Sheets and there is a lot of
+24:49
+different stuff here I mean let's just take a look at this for example we can create sheets we can delete sheets we
+24:56
+can append we can um we can append or add we can clear
+25:02
+create delete and so on and so forth but we can even go further and we can create
+25:07
+triggers so take how we had for example this form submission we could have swapped this out and had um a different
+25:15
+trigger such as when a row is added or updated in Google Sheets right so these
+25:22
+are just different triggers here for example as well but for the purposes of this tutorial what I want to do is I
+25:28
+want to use this update and uh append Row in Google Sheets and what this does
+25:36
+is one of two things first of all you can either append it which is a fancy way of saying hey we are going to create
+25:42
+we're going to add a row to Google Sheets or we're going to update it if it exists so that's one of two things we're
+25:48
+either going to create it if it doesn't exist if it does exist we're going to updated and so let's go ahead and choose
+25:54
+this and configure this so now you can see on the side the input and I'm going
+26:00
+to cancel off this we got the input from this on form submission so all the data
+26:05
+that we got from here we can now see and I'm double clicking here we can now see on the left side here first name last
+26:13
+name email budget message all that kind of stuff we can see it in schema we can see it in table view we can see it in
+26:20
+Json view three different ways to see the same data now what we need to do is
+26:27
+add this into a Google Google sheet so I'm going to go ahead and I'm going to type in sheets. goole.com into the
+26:33
+dashboard or into the URL up top here and I'm going to create a blank spreadsheet here okay and I'm dragging
+26:40
+this over and this will be in the um the blueprints as well but essentially what
+26:46
+I'm going to do is I'm just going to copy what I have here just to speed this up and if you guys want to pause or download the sheet or whatnot you can do
+26:53
+so we just have essentially these columns we're going to have first name last name email budget message date and
+26:59
+rejected even if you don't spell this properly no problem it doesn't matter and so more or less what we want to do
+27:06
+is send data from nadn into this Google sheet here and so
+27:13
+how we do that is by first of all creating uh credentials up here what
+27:18
+this means is we're giving naden permission to do things in Google Sheets
+27:24
+like creating adding searching and updating and by the those are the most common things to do is create ad search
+27:31
+or update so we're going to create a credential here by hitting the plus button and then we're just going to sign
+27:37
+into our Google account it's going to redirect us over to authenticate I'm
+27:43
+going to hit my account here click continue we're just giving it permission to do things so now that we've gone
+27:50
+ahead and done that we can move on with this moving forward we're going to
+27:55
+choose resource which is a sheet within a doc this is just boilerplate we don't have to change anything here and then
+28:01
+the operation we can change right but we already selected the operation but this is just giving us another way like if if
+28:07
+we exit out of this and we hit the plus button and we search for Google Sheets you can recall that it showed everything
+28:13
+here and I'm going to exit of this by hitting the Escape key and then double clicking in back in here but essentially
+28:19
+we have all these operations again the most common operations one more time are
+Mapping variables in n8n
+28:24
+essentially like updating creating clearing deleting all that kind of stuff
+28:30
+and searching here too right and so those are the most common things but we're going to use a pendant update and so we're going to choose from the
+28:36
+document which is going to be from a list here it's going to just pull in all of our recent documents here and I
+28:42
+believe it's this Untitled document because I didn't actually name this so I'm going to do I'm going to name this naden leads version
+28:50
+two and now we can we can pull or we can start adding data in here specifically
+28:56
+we need to choose the sheet and what the sheet is is just here it's the tab right and by default it says sheet one and you
+29:03
+can go ahead and just keep that right if you want to change the name you're more than welcome to do so so we're going to choose sheet one and then we have all of
+29:11
+these um popups down here right and so what we're going to do is we're going to
+29:17
+take data from here and we're going to move this data into here right we're
+29:24
+going to drag it one by one so what I'm going to do is you can do this in table schema or Json but maybe it's easier in
+29:30
+schema we're going to hold down and drag first name into the first name section
+29:36
+here okay then we're going to do the same for last name and we're going to drag it in and then I'm just clicking
+29:41
+off to hide this and it might be easier to start at the bottom here where we have like message here so I'm going to
+29:47
+drag message because you can see this is a giant pain in the butt that it just kind of blocks all the cells below so
+29:53
+I'm going to start from bottom up and drag things in budget and we also have
+29:58
+email here okay and so that's perfect now we're adding in data from our form
+30:05
+and we're placing that again into our Google spreadsheet and so we have this
+30:12
+column to match on what this means essentially is it saying hey if we're
+30:17
+having to update a row in Google Sheets how do we know which um row to update
+30:25
+and so it needs to find that existing row by a unique identifier and typically
+30:31
+where there's there's multiple unique identifiers um but you can think about it this way here's here's three your
+30:38
+email address is unique identifier no two people have the same email address in the world right nobody has the same
+30:45
+email address phone number is another one and the most and this is supposed to be a phone number and the the other most
+30:51
+common one to that people use is an ID string so this could be like a long ID string like 1 g 2 7 T5 and so on and so
+31:00
+forth but for the purposes of this we're just going to use um the email because
+31:06
+we just got that on the form and so we're going to search by email and we're going to see does this email exist if it
+31:13
+does we're going to update it if it doesn't we're going to create it so I'm going to exit off of this and we're
+31:19
+going to test this workflow we have the pin data here and it's going to send that data straight into Google Sheets
+31:25
+here and so it looks like it ran success successfully and now we have the the data here if we try it again this time
+31:34
+it's going to update it because it found that existing email right and so if we
+31:40
+were to come back into the mock data This Time by double clicking there we were to edit the mock data and I was to
+31:46
+put like Bob gmail.com and save this and then click off of this um and test it
+31:53
+again now we're going to add another row because it's like whoa whoa whoa whoa
+31:58
+whoa we can't find Bob at gmail.com we only have JCC or jcat left I can't
+32:03
+believe I got my name wrong there um at gmail.com so that's kind of more or less
+32:08
+how this works if you guys made it this far you've already done a massive amount of the heavy lifting you're already
+32:14
+really starting to to be on your way to like setting this up so this is a huge win I want to Circle back to this
+32:22
+because I want to Circle uh I want to move forward here and I want to talk about um adding in functions here so
+32:30
+we're going to double tap in here and we're going to go down to the bottom okay and essentially from here we have a
+32:37
+date field now you can have submitted at here and we can just drag submitted at
+32:42
+but I actually want to show you guys another thing to look at so if I just
+32:48
+delete this out of here you have fixed and you have Expressions here right so
+32:53
+this is right here and essentially fixed you can just think about it like text
+32:59
+you're just saying any text it's just a string right and the an expression is
+33:05
+kind of like this right so essentially an expression is a custom variable that
+33:12
+you pass through that will change every single time so the first time you submit a form it might be J jono at DJ or at
+33:19
+gmail.com the second time it might be Bob gmail.com the third time it might be Stacy gmail.com so this is a custom
+33:27
+variable that always changes every single time and we can add in our own
+Functions in n8n
+33:32
+custom variables through functions here and so if we go over the Expressions we can write our own function so I'm going
+33:38
+to type in curly brace curly brace on my keyboard I'm just literally typing this
+33:44
+in on the keyboard you can find this and type this in and anything in here is going to be treated as JavaScript now
+33:50
+you guys do not need to know JavaScript at all but um we can add in some very simple functions so for example I could
+33:57
+hit dollar sign and keep in mind this is all boiler plate I I'm not doing anything fancy this is just something
+34:03
+you have to do every single time and you can see it with all of these two you have double bracket and you have dollar
+34:08
+sign up here and and then double bracket at the end so this is just boilerplate and we can type in something like now
+34:14
+for example and now it's going to give us the exact date and time that this was
+34:20
+submitted right and so this is just one of many functions we can Circle back and take a look by hitting the double curly
+34:26
+braces in the dollar sign sign and there's just a lot of stuff in here that we can see and so we're we're going to
+34:32
+get further into this later on but essentially these are the kind of things that you can enter in there as well
+34:39
+right and so this is more or less how functions work in n8n and a lot of the
+34:46
+time we just have Json here and and this is the same as this we're just passing it back and forth this is just a
+34:52
+different way of viewing the data here right and so essentially we've completed
+34:58
+the first module we've added in a date field and we're going to add in one more function here which is going to be
+35:04
+rejected so in our form we're going to um come back here we're going to insert
+35:09
+in a check box okay and I'm just doing that by the insert and check box down
+35:15
+here and essentially I want to know like if somebody comes in and they have a low budget let's say it's under $1,000 I'm
+35:21
+maybe it's just not worth my time giving them a call because we're just not going to make money off of that deal and so I
+35:28
+want to automatically reject these people if they come in with a low budget and so I want this to be checked off as
+35:34
+rejected and if you see the value here this is true if it's checked and it's uh false if it's not checked and so all we
+35:41
+have to do is check this on and off but I want to do this programmatically I don't want to do this through Google
+35:46
+Sheets I want to do this through naden and so with this rejected field here
+35:53
+what we're going to do is we're going to turn this over to an expression we're going to add in the double Fields here
+35:58
+uh the Double braces and the dollar sign and we're going to choose this if function here and so with an IF function
+36:05
+I'm just going to circle over to my Blackboard here because I think it's just a bit easier to Showcase
+36:11
+essentially it's a conditional statement where if
+36:16
+condition equals true so if some condition is true then you're going to go down path a oops but if it's false
+36:25
+then you're going to go down path B right so this is
+36:31
+false and this is true right and so what
+36:36
+we want to do in this case is say if the um if the money that they can spend is
+36:44
+over $1,000 right this is the the the condition if the money they spend is
+36:49
+over $1,000 it's going to be true but if not
+36:55
+it's going to be false so like if it was 900 bucks or if it was 800 bucks or $100
+37:02
+or it it would all be rejected but if this is like hey I I can spend five grand no problem sure or if I can spend
+37:08
+$10,000 or if I can just spend $1,000 sure no problem this is great and we're
+37:14
+going to pass them through right so we're just taking a look and seeing if this is actually um enough money that
+37:20
+they put so it takes three parameters so I'm going to put um three parameters
+37:26
+here which is these um nice little quotations just so you can see this is the condition if the condition is true
+37:33
+this fires off if the condition is false this fires off and all we want to do here is say if the condition is true
+37:43
+that it is not what we're looking for then it's going to be um rejected and
+37:50
+then if it is yeah so we have sorry I I
+37:55
+confused myself there but essentially we have true and false right so this is rejected and this is not rejected and so
+38:02
+essentially what we can do here and it actually might be easier sorry I'm just uh redoing this again we're going to
+38:08
+take a look and see if the condition is $11,000 or more and so when we looked at our form we have the two variables here
+38:16
+$1,000 Plus or zero or one to $1,000 and so if for example and I'm going to pull
+38:24
+in the budget here I'm going to drag this I'm going to drag it right here so
+38:30
+I just dragged it before this if this equals
+38:36
+$1,000 plus then they're not going to be rejected it's false they're not rejected
+38:43
+if for example they don't include $1,000 plus then they are rejected I you know
+38:49
+we're just going to automatically reject them and so that's essentially it and this is important that we put the double
+38:56
+equal signs I think that anen has a bug if you only put one so just make sure to put two or three um and essentially
+39:04
+that's just like a JavaScript thing to to match on like certain things and I'm just not going to get into that now but
+39:10
+essentially we can go ahead and test this workflow and we can see did we reject Bob no because he had $1,000 but
+39:19
+let's change his um his budget to like
+39:25
+$900 oops and is just like a hard-coded value for now it's just text so it's
+39:30
+like really if anything isn't equal to $1,000 plus so we'll go ahead and we'll update it again and
+39:38
+because the budget wasn't exactly $1,000 and plus literally written like that
+39:45
+then he was rejected and so this is an easy way for us to use functions in nadn
+39:51
+to automatically reject somebody so we have the dollar sign Json budget if you're wondering what this is we just
+39:58
+dragged it over from here we're just dragging this or bringing it in here and
+40:04
+then oops and then we have a condition which is hey is this equal to $1,000 plus if
+40:11
+it is then they're not rejected and if they're um if the budget they have is
+40:17
+less than that then we don't want to work with them and so that in a nutshell is budgets now the next thing that I
+40:24
+want to talk about here is uh filtering and then switching and merging so we
+40:31
+have if we hit the plus button we have these data Transformations and we have a filter here so we can filter people out
+40:38
+and then we also have um other things as well such as if statements and switch
+40:46
+statements so let's break down what these mean so the first thing we're going to do is we're going to add a
+Filters in n8n
+40:51
+filter here and so this filter is going to stop people from passing by and for
+40:57
+for this what I want to do is I want to add in budget is less than and I'm just
+41:02
+going to say budget number uh actually we'll put in
+41:08
+string is not is not equal to let's say
+41:14
+0 to $100 so let's say somebody comes in you're like hey this person's asking for
+41:20
+a job for Z to $100 my minimum my maximum is $1,000 maybe I just don't even want to entertain this right so
+41:27
+we're going to remove those people so we can come back into the form section here and in the dropdown we can just add
+41:34
+another field and this is like $0 to a th $100 and so if we were to test this
+41:41
+step we'll we'll unpin and test on this drop down now we have like three options
+41:46
+so if somebody was to come in and put this option here then it's going to
+41:52
+automatically filter them out we just we're just not even interested right
+41:57
+and so that is how we can we can we can work with a filter just like that so I'm
+42:03
+going to again just format this properly so it's kind of like in um connection with how all these other ones look and
+42:09
+maybe this is like a $100 um to a th000 and that looks good to me I'm going to
+42:15
+go ahead and just before I test this I'm just going to update this filter just making sure that these align because if
+42:21
+this does not exactly match with this then it's not going to work so let's go
+42:27
+ahead and let's test this example out and um I'm going to stop listening
+42:32
+because I need to grab this form and just paste that into a new field here we can go ahead and test this form out
+42:40
+refresh the page up top here um just by refreshing it and then we're good to go so I'm going to go ahead test this jocat
+42:46
+jatli gmail.com the budget this time is going to be 0100 and I'm going to say test message
+42:54
+and submit and we can Circle back to this we receive the data I'm going to pin this so we can use this moving
+43:00
+forward and um yeah we can just test this out it's now gone ahead and updated this
+43:08
+with a z to $100 budget and um it's rejected this person and we can see that
+43:15
+it was discarded up top here so in other words it didn't pass this filter here
+43:21
+because the value was 0 to $100 so we've effectively filtered out people where it's like it's not even worth our time
+43:28
+and the reason uh let let's continue on here but maybe there's like people in
+43:33
+this category here where you're like maybe I can get them on a call and somehow convince them they get up to
+43:40
+that $1,000 threshold or whatever your threshold might be and so it's good to have like an option maybe to have salese
+43:47
+call them even if it might not necessarily be the most qualified lead you might as well take a shot at it so
+43:53
+we're going to add another step up here and this time what we're going to do is
+Switch in n8n
+43:58
+we're going to have a switch function and what a switch function does is it
+44:04
+essentially routes people down multiple different paths so if we go back to the Nifty Blackboard here I'm going to
+44:11
+delete this and essentially we have this one module which is the switch and this is just essentially
+44:17
+saying hey you're going down path a or you're going down path B depending on
+44:23
+what um what a particular variable is and this variable is going to be the budget so if your budget is between Z or
+44:33
+$100 to $1,000 you're going to go down path a and if it's $1,000 plus then
+44:38
+you're going to go down path B so we're going to go ahead and set that up and you can see here that we don't have any
+44:44
+input data because this did not pass and because it didn't pass we can't map this
+44:50
+in and in order for us to get input data here we just need to change the mock data and we're going to enter into the
+44:57
+trigger again click this um PL this uh pencil icon and we're going to change
+45:03
+this to let's say ,000 plus okay sweet we'll save this and
+45:10
+we're going to continue forward with this test we're going to test it out it's going to update our system again we can take a look back and see that the
+45:17
+budget's been changed and it's no longer rejected and we have entered the switch
+45:23
+module if we come in here we have all the data if you just look at like table for example you're only going to see
+45:29
+like from the filter and you can come in you can see other modules here but I just want to go to schema cuz I can see
+45:35
+at a nice view everything and so I want to take this budget here I want to say
+45:41
+like if this budget is equal to 100 to $11,000 you're going to go down this
+45:48
+path and alternatively oops I'm going to open this back up here we have another route where if the same data equals
+45:56
+1,000 plus then we're going to go down this path right so we're just sending them
+46:01
+down different paths depending on what the budget is that they set and so that more or less is how a switch function
+46:09
+works and so we can now essentially send different emails depending on where
+46:15
+they're at so for example maybe in this case we send a Gmail uh email to them
+46:21
+and we're just going to type in email and we're going to type in send and we're going to send a particular message
+46:27
+and maybe we want to send different messages like hey if you only have $200 I'll get back to you when I'm available
+46:33
+and If you have over ,000 it's like okay we got to jump on a call immediately and so let's go ahead and connect in our
+46:40
+credentials by hitting this plus button and we're just going to sign into Google here very similarly to how we do Google
+46:46
+Sheets I'm just going to give this permission and allow this which uh I
+46:51
+think is just giving it access every six months to my account and we're good this
+46:57
+has been connected we can come back in here and now we can go ahead and send off an email so we're going to use the
+47:05
+email of the person that submitted that form right so we're going to send an email to them and we can just go ahead
+47:13
+and say hey thanks for inquiring with ABC
+47:19
+company and then we can change this to plain text email instead of HTML and we'll just say hey and the reason why we
+47:26
+split this into first name and last name is because if you just put it in one field and you say hey first name and
+47:33
+last name it would be like hey johon o catl that just doesn't seem it just doesn't seem that authentic because I'd rather split this into first name last
+47:39
+name uh uh I'll thanks for
+47:45
+inquiring with our services I look uh I'll give you a call
+47:53
+back um later this week or whatever right and so this is one option and we
+47:59
+can just sign off by like bjo here and then we can also duplicate this and we
+48:04
+can come into here hit these three dots and we can again duplicate this module
+48:10
+here and send a different message if it's under $1,000 just as a quick
+48:16
+refresher you can automatically play modules with this test up you can automatically deactivate the module with
+48:22
+this step you can delete it over here and then you have these drop downs you can open the module up you can
+48:28
+effectively um test the step which is essentially here you can rename it deactivate it copy it duplicate it
+48:36
+select all clear and delete and we just essentially duplicated it and we have path two which is going to link in here
+48:43
+now so in this particular email what we're going to do is we're going to say
+48:48
+hey thanks for inquiring with our services can you can you book a call on my calendar
+48:56
+link here and then I'll just be like https
+49:02
+abc.com booking and this could be like your calendar widget or whatever that you just add in here and then they have
+49:07
+an option to book under calendar immediately so that in essence is more or less how we can split the paths apart
+49:14
+depending on a variable like the budget if their budget is high then great we want to talk to them immediately and we
+49:19
+want to give them their calendar link if their budget's low then we don't want to do that and so the next thing that we can do here is we can type in merge and
+Merge in n8n
+49:28
+add another field and we're just going to essentially append these back together and what's going on here is
+49:34
+we're just saying hey no matter which path we go down we're just merging these paths back together again so whether you
+49:41
+go to email number one or email two we're just merging them back in and we're grabbing the data that we need so
+49:47
+we can test this workflow now we're going to update the Google sheet we're going to filter we're going to um go
+49:54
+down the right path which is hey this person has over $1,000 on their budget
+50:00
+we sent the first email and then we merge them back together right and so
+50:05
+this looks good the only last thing that I want to do for this workflow is I want to essentially add in another email here
+50:11
+to say hey we're going to notify our team immediately if a lead comes through if I go back to the inbox here there
+50:19
+should be another email coming in and essentially this is just saying hey thanks for inquiring a better Services
+50:24
+here's our calendar link we can remove this aend down here by coming back into nadn and in this option section here
+50:33
+we're going to add an option append an attribution and turn that off for both
+50:38
+workflows here and that's how we can remove that moving forward um the last
+50:44
+thing is we're just going to duplicate this again so we're going to hit the three dots here and duplicate it and
+50:50
+move this over the end and notify our team you can do this through Gmail you
+50:56
+you could do this through slack you could do this through uh whatever it is
+51:02
+you want you could even send them a message through twio which is an SMS platform you could do this through
+51:08
+WhatsApp you could do this through your CRM I think um mine's go high level it
+51:13
+doesn't even look like they have an integration for that you could send it through an HTTP request which we're going to get into later in this module
+51:19
+it's just that for the purpose of this the Gmail module is going to be the easiest so I'm going to open this module
+51:25
+up and we're going to just send it off to myself here so there we go and I'm
+51:31
+just going to say new lead and change the subject line here to new lead as
+51:37
+well and I'm going to say name email budget message and we're good to go and
+51:45
+we're just going to map these over on the schema scroll down find the first name here find the last name here again
+51:53
+put a space in between those two and then we're going to go off to the email section here and then we're going to go
+51:59
+off to the budget section here and lastly we can enter in this message and so that is effectively the
+52:06
+first workflow that has been completed we've we've essentially built out a new lead workflow that as soon as somebody
+52:12
+inquires on your website you're going to automatically add them to Google Sheets you're going to reject them if their
+52:18
+budget's too low you're going to filter out anyone that's way too low you're going to email them saying hey let's
+52:24
+jump on a call and then you're going to notice notify your team to give them a call within 60 seconds because that increases your conversion rate by up to
+52:31
+391 if you call somebody really fast and so that is effectively the first um nadn
+52:37
+workflow that we' built out together congratulations for making it this far so let's get into building the second
+Create your first AI agent
+52:43
+one here and this is going to be your first AI agent we're going to come in
+52:48
+and we're going to go into our personal account here and we're going to create another workflow and so for this what
+52:54
+we're going to do is we're going to add a first step and this is going to be the on chat message so we can just exit off
+53:01
+of this by hitting the Escape key because there's nothing else that we need to do here and then we can add the plus button and we're going to do
+53:08
+Advanced Ai and this is just going to be the AI agent I'm going to exit off this
+53:14
+you can see what this AI agent looks like and um we have a couple things that we need to set up here which is the chat
+53:21
+model the memory and the tool so we're going to get into setting this up I'm going to double click to open this up or
+53:27
+oops we can I'm just hitting control V there to bring it back or we can just hit the open here and effectively
+53:34
+there's nothing really that we have to set up here yet the only other thing that we might want to do is just add a
+53:40
+system message to give additional context to this agent because we're just starting right now I'm going to start
+53:46
+with your helpful assistant and that's good enough for me now the first thing that I want to do here is I want to
+53:52
+create a chat model you can think about the chat model as any any of these language models I like to use um oops I
+54:00
+like thank you ad blocker I really appreciate you interrupting this video in case you guys are wondering you can
+54:05
+donate to ad blocker um so um in Cas
+54:10
+sorry anyways that just totally derailed me there for a second but you have all these language models I like using open
+54:16
+AI or or chat gbt down here right and so the choice is yours this is the only
+54:22
+thing that's going to cost money but this is like the brains of your system this is going to be doing all the
+54:27
+thinking reasoning and this is going to be responding back to you um understanding the messages you're saying
+54:33
+and so this is like the brains of the operation so I'm going to use chat GPT or open Ai and we just have to similarly
+54:39
+add a credential for this as well and we need an API key and that is pretty much
+54:45
+it so we're going to go ahead and create this together and so I'm going to create a new tab here and I'm going to go to
+54:51
+platform. open.com okay and we're going to sign in and get this API key
+55:01
+so I'm going to add in my credentials
+55:07
+here and click continue and I already have an account here so um okay uh it's
+55:14
+going to ask me for an email so I'm just going to quickly head
+55:20
+over there okay sweet so I got the email I'm just going to grab in this code and place it in here and then
+55:26
+we'll be inside now that we're inside open AI
+55:32
+what I want to do is go to the dashboard up top here and go to API keys and we're just going to create a test key test and
+55:39
+then key okay we're going to create this key and we're going to copy this and we're going to paste that back in to the
+55:47
+uh window here which is the API key we can save it and we are done okay that's
+55:53
+pretty much it now the only other thing to keep in mind here is that you do need to add in $5 this is what I said at the
+55:58
+beginning of the video where we can just come into your profile here go to profile and then go into billing and
+56:05
+then you'll just have to add in a balance here of like $5 and once you do that then you are good to go so I'm
+56:13
+going to move on from this and we can essentially just start using open AI in
+56:19
+our AI agent the next thing is is we need to have a memory here and this memory is going to be window buffer
+56:25
+memory there's a lot of I'm going to delete this and go back there's a lot of different options here but the window
+56:31
+buffer memory is just the builtin version of memory in naden and you can
+56:37
+think about the window buffer memory as just can it remember past messages like
+56:42
+and how many past messages can it remember and so when we put five here it's just remembering the past five
+56:49
+messages pretty much being sent and the more messages you put here the more it's going to remember so for example if if I
+56:56
+say hey what uh city are you in it says I'm in New York and then you say what's the weather like in New York it's going
+57:03
+to remember or sorry if you say what's the weather like it's going to remember that you're not only asking what the weather's like but also the city of New
+57:09
+York because it's remembering the past messages and so this is obviously really really cool the next thing that we're
+57:15
+going to do here is we're going to add in tools and what tools are are you're giving this AI agent with a brain and a
+57:22
+memory the ability to actually do things and so what we're going to do is we're going to update our or create our Google
+57:30
+Calendar so what we'll do is hit the plus sign here we have a bunch of different tools here this is quite
+57:37
+limited like it doesn't have all the tools that you might want to have access to so what we're going to do um and in
+57:46
+in order to bypass this we can create like a subf flow here and then you get access to all the other tools as well
+57:51
+but we're just going to start with something basic and we're going to do Google Calendar so I'm going to type in calendar here and we have lots of
+57:58
+different options we have create delete get get many update and so on and so forth I'm just going to stick with
+58:04
+create and we have the from or we have the start time and the end time now the
+58:10
+cool thing about this is that when we're dealing with um AI agents we don't even
+58:16
+have to enter in really much data at all we just let it do all the reasoning for us and so we're just going to hit
+58:22
+Expressions here and then we're going to type into the curly braces from AI I and in Brackets here we're just going to
+58:29
+give two keys okay just with these quotation marks on either side separated
+58:35
+by a comma this is going to be um the key which is just essentially saying to
+58:41
+AI hey can you find the start time of this event right and it's literally
+58:46
+going to pull out the start time for you and I can just give in the second variable here um the description of what
+58:54
+this is this is the start time of the event and so we're just saying hey this
+59:00
+is the key you need to find you need to somehow find in a message the start time and in case you don't know what I'm
+59:06
+talking about here this is a nice little description of what it is that I'm trying to get to and I can just copy and
+59:11
+paste this in here and um and then yeah that's essentially it we're going to do
+59:17
+end time here and there we go we have created a start time we've created an
+59:23
+end time and I'm going to add this on on to my calendar here and so again I just
+59:29
+need to sign in with my credentials to add in Google Calendar so we're going to go ahead and do that and give permission
+59:36
+to nadn to do everything it wants to do with my Google Calendar as well so we're
+59:42
+good there um we can just choose the right calendar I'm just going to do this one here and more or less that's pretty
+59:49
+much it maybe the only other thing that I want to do is just have a summary here so hey maybe I can like update the
+59:54
+actual title of the the calendar as well so we'll just copy this in and man this like this makes Automation and all that
+1:00:00
+kind of stuff so freaking easy just cuz like all of a sudden it's like H I don't even need to know the right answer it's just going to freaking tell me tell tell
+1:00:07
+me for me so uh tell it for me so that's really really awesome stuff like it just makes my life so much easier so I'm
+1:00:12
+going to say summary this is the summary slash tile of the event and
+1:00:20
+that's more or less it I mean we can just effectively use this to create an
+1:00:26
+event for us hey can you please create a
+1:00:31
+coffee event for tomorrow at 2 p.m for 1
+1:00:37
+hour and it's going to take that it's going to search the memory make sure there's no past conversations then it's
+1:00:43
+going to understand what the request is and then it's going to send that over to the Google Calendar to actually create
+1:00:48
+the event then it's going to send that back to the model to be like okay the event's created what's next and then this is going to say hey okay we've done
+1:00:55
+everything now we're going to send the message back and it's going to say hey I've created a coffee event tomorrow at
+1:01:00
+2 p.m. for 1 hour here the details right so memory then model then tools back to
+1:01:07
+model if there's more tools it'll execute those back to the model back to the message to you and we can take a
+1:01:12
+look at the calendar event here and just see was it in fact oh my gosh this is
+1:01:17
+uh we do definitely do not want the year we'll do the month and was this added on
+1:01:23
+to my calendar successfully and the reason why it's not added on is because
+1:01:29
+the thing with AI at this point in time is that it doesn't actually know today's
+1:01:34
+date so you can see here it says 2023 and so we are currently filming
+1:01:41
+this on November uh sorry February 19th clearly I don't know the date uh
+1:01:47
+February 19th 2025 so this is like two years behind so what we can do is we can tap into the uh a AI agents and give in
+1:01:54
+the system prompt the ACT ual date the current date is and then we're going to
+1:02:00
+do an expression here and we're going to pass in the exact date which is now and
+1:02:05
+so we can try this again we're going to copy this message in and paste it and
+1:02:11
+now it's going to go back update find the conversation history understand what to do update the calendar send it back
+1:02:17
+to understand what to do and then send the message back to us and now we can see 2 p.m. coffee tomorrow right and so
+1:02:24
+there we go we've officially created our first AI agent and yeah that's that's pretty cool right and so we can do tons
+1:02:32
+of other things with this we can also get events as well so I'm going to type
+1:02:37
+in calendar and this time what we're going to do is we're going to get many
+1:02:42
+events right so maybe you want to wake up stretch it's like 6:00 a.m. in the morning or 8:00 a.m. or or maybe you
+1:02:49
+wake up at 2 p.m I don't know and you want to figure out what's going on for your day you can get many
+1:02:55
+events and you can just say hey give me all the events for the day and so what we're going to do is again select um the
+1:03:02
+calendar and we're just going to delete all of these expressions and just add in
+1:03:08
+from Ai and literally just do the same thing start time as the first key to
+1:03:13
+find this is the start time of the event right and that is more or less it
+1:03:21
+actually on this we're going to change it up because this is after and it's just going to be like um date uh I'm
+1:03:30
+going to do after date this is
+1:03:36
+the time the user wants to search for events
+1:03:42
+past and I'm going to copy this and paste it in here and I'm going to say before date and the cool thing is is it
+1:03:49
+really understands this even though this is like not the best prompt in here it's going to take that and really understand what this is this is the time the user
+1:03:56
+wants to search for events before right and we can just say um we
+1:04:02
+can just literally just save that and let's see if we can pull in this particular um calendar event here so I'm
+1:04:10
+going to go back to the scenario and say can you please tell me my schedule for
+1:04:18
+tomorrow on my Google Calendar and it's going to go ahead find the memory
+1:04:26
+process the request search for events get a response back and send it back to us and it says your schedule for
+1:04:32
+tomorrow February uh whatever is this right and now if I had like 10 events it
+1:04:39
+would load in those 10 events it wouldn't just be one event right and so that's how we can easily create and find
+1:04:47
+Google um Google calendar events and we don't just have to do that maybe we have
+1:04:54
+like a to-do list and maybe you use clickup or maybe use whatever platform I'm just going to keep it simple and I'm
+1:04:59
+going to do Google Sheets here so I'm going to go ahead and actually just create a new sheet here and you guys can
+1:05:06
+follow along I'm going to go to uh sheets. goole.com and we're going to create a new sheet I'm going to paste in
+1:05:13
+these rows just task name description due date and priority and we can say
+1:05:18
+nadn test um tasks and we can now pull
+1:05:24
+in tasks and create create tasks straight onto this Google sheet here so let's go ahead and do that the first
+1:05:30
+thing we're going to do is create on this so we're going to add a tool and it's going to be sheets and this time
+1:05:35
+we're going to change the operation to create and we've already connected in
+1:05:41
+our Google sheet here which is really nice and all we have to do is find that which is the nadn test tasks and um more
+1:05:50
+or less what I want to do from here is um I want to
+1:05:56
+choose this or sorry uh yeah pend a row my apologies here so we're going to pend
+1:06:01
+a row to this and we're going to choose the right sheet which again is just
+1:06:07
+sheet number one down here which is default and we can just add in from AI
+1:06:13
+for all of these things and it's going to literally do it for us I'm just going to change all of these from the top up
+1:06:19
+to Expressions because it's like blocking at the bottom here and it's just way faster and we're going to enter
+1:06:26
+in from Ai and I'm just going to say task name and uh give a description this
+1:06:35
+is the name of the task and the AI is just going to come up with all of this so it's like really just converting a
+1:06:42
+lot of this hardcore automation that you may have had to do when like NAD or zapier into just AI doing pretty much
+1:06:47
+everything for us so this is going to be task priority this is the
+1:06:53
+priority of the task and then I say task due date this is the
+1:07:00
+due date of the task and then description this is the description of the task we can go ahead and we can
+1:07:06
+create a task can you please create a task um for
+1:07:13
+tomorrow at 700 p.m. to go to the gym just going to go ahead and say duplicate
+1:07:21
+key task name found with different description so I'm going to open this up and see
+1:07:27
+what's going on so we accidentally added in two identical names so I'm just going
+1:07:33
+to change this to description and I'm going to copy and paste this message again and let's take
+1:07:40
+a look and see if it can solve that for us well thanks uh chat youb in anded in
+1:07:49
+for creating this for me now we can actually take this one step further because let's say that it just randomly chooses a priority for you maybe you
+1:07:56
+want to have like some structure in there so we can go back to our AI agents in the Google Sheets Module come down to
+1:08:01
+this priority section here we can actually just add in a line like this which is please choose one of the following priorities um low medium and
+1:08:09
+high and it's literally just going to take it from that list here right so instead of it just being like like super
+1:08:15
+high or whatever it's not going to make things up it's just going to choose some your list what I want to do is go over the tools and add in two more things
+1:08:21
+here so I'm going to go to Google Sheets and we're going to do um two other requests just because typically speaking
+1:08:28
+with applications like Google Sheets really just programming in general or automation Tools in general there's four
+1:08:35
+main things that you do number one is you get or you find things you get results back you're looking for results
+1:08:41
+you create results you update results or you delete results and so we're just going to go through most of these the
+1:08:48
+deleting is pretty straightforward so I'm just not going to cover that um just because it's literally identical to all of these so if you can do one you can do
+1:08:54
+all all the rest and so we're just going to go ahead and get many rows here because I want to search for certain
+1:08:59
+things and we're going to choose the right sheet once again by the name up here and by the tab down here and we'll
+1:09:07
+go ahead and create a filter this filters how do we find the data that we
+1:09:13
+are looking for and I want to do it based on the due date and so this um is
+1:09:19
+just going to search based on whatever date it is that you know we're looking for and again super easy easy we can
+1:09:25
+just type in expression and we can just do from Ai and we'll type in the key which is the due
+1:09:33
+date and we'll paste in I don't know the uh the date the task is due
+1:09:41
+on and we can search for this and effectively let's just go back
+1:09:46
+and we can see like here's the due date here and I think this is for tomorrow right so we can just ask can you please
+1:09:53
+tell me any t masks on Google Sheets that are due
+1:10:00
+tomorrow and it's going to go ahead and search based on that due date and it
+1:10:05
+should pull back something so it says you have no tasks that are due tomorrow February 20th 2025 and the reason it did
+1:10:13
+that is because it's not searching up like what it probably put in here if we
+1:10:19
+go into the debugger section here we're going to go to executions and we're going to search for this
+1:10:25
+what it likely put in here is not the same date right so if we look at the
+1:10:31
+Json data uh if we look at the input here this is what it searched for okay
+1:10:37
+20250 o220 and this is the actual date which is 2 20 2025 and so effectively we
+1:10:47
+just need to make sure that the dates are structured properly so in other words what we could do is we could do
+1:10:53
+like um O2 20 and 2025 and we can just standardize the
+1:11:01
+dates here and then Circle back and standardize the dates in our AI agent we're going to exit out of this and go
+1:11:06
+back to the editor this is how we debug here by the way because there's going to be errors that come up we just need to
+1:11:12
+go to executions find the current execution and figure out like the input or the output to make sure what's going
+1:11:18
+on and we're just going to come back and say in the main AI agent we're going to add to the system prompt which is tell
+1:11:25
+calling it instructions so we're going to say rules and I'm just going to highlight this with two uh two different
+1:11:32
+pound signs I'm going to say all dates must be structured in this um in this uh
+1:11:43
+according to this structure and I'm going to do this right
+1:11:51
+in other words it must B month month slash DayDay SL year year
+1:11:59
+year year and it's going to pull that in so now when we try this again to search for it I'm going to pull this back in
+1:12:07
+paste it let's see if now it can find it based on that structure and now we have one task due
+1:12:14
+for tomorrow which is going to the gym right we can take a look and see that it's going to the gym and so that is how
+1:12:21
+we can search for tasks you just may want to add some structure in there because if you get dates mixed up and
+1:12:27
+there's just there's like a million ways to to to find dates right or structure dates so let's just clean that up the
+1:12:33
+last thing here is let's go ahead and update and this is really really cool so Google Sheets typically when you're
+1:12:39
+updating something you need to find that in the Google sheet right so you need to have a mechanism to actually find the
+1:12:46
+row because if you have like five tasks here it's like which task are you
+1:12:52
+looking for because maybe these are all like different dates how you know which task to actually find and so we need to
+1:12:59
+wait find a way to search it up and then update the right one so I'm going to go
+1:13:04
+ahead and I'm going to use the nadn task test I'm going to do more or less
+1:13:10
+exactly what I've done and we're going to update a row this time we're going to
+1:13:15
+choose the default sheet and effectively it's going to ask us for all
+1:13:22
+this information again and we can just simply I'm actually just going to duplicate this um so we have two
+1:13:29
+different columns here and I'm just going to copy and paste this in so I have like an outdated version and a
+1:13:35
+recent version and I'm just going to like literally just copy these and paste these in here so priority goes into and
+1:13:42
+I'm changing this to expression priority due date I'm going to copy this and
+1:13:47
+paste this into the due dat section here description and so this just kind of
+1:13:54
+speeds up a bit because this can be pretty mundane and boring and if you do this as much as me you'll eventually
+1:14:01
+become numb to it at one point a time but yeah anyways there we go and then we have um sorry that was a bit dramatic
+1:14:07
+but we have the column to match to this is just like hey um how are we finding this and let's just do on the same thing
+1:14:14
+we're we're going to do due date here and so we're going to find it based on due date but the problem is is that it
+1:14:19
+might not know exactly how to do this so we have to go into the AI agent and we have to expand out by hitting this dot
+1:14:26
+here and we have to add another rule here um actually we're just going to
+1:14:31
+call we're going to we're going to add onto this agents and we're just going to give rule um like instructions
+1:14:40
+agent instructions so call the
+1:14:47
+um create an events with the create with the Google Calendar create
+1:14:56
+event tool search an event with the Google
+1:15:05
+Calendar search event tool and these are pretty just generic you might be sitting there be like yeah well that's pretty
+1:15:11
+obvious right um but the last one is is not necessarily obvious update an event
+1:15:17
+with the Google Calendar update event tool and we're done I'm just kidding uh
+1:15:25
+before you do this always make sure to search for the event
+1:15:34
+first to find the right
+1:15:39
+record and down here we're going to add to the rules as well before
+1:15:45
+updating uh Google sheet and sorry these should all be sheet um oops
+1:15:55
+please find the record first with the
+1:16:00
+with the Google Sheets Search tool and so we're essentially saying you know
+1:16:06
+don't just update something because you probably don't know what it is let's search for it first and then once we
+1:16:14
+find the actual value that we want to update then we can go ahead and do that
+1:16:20
+right and so that's more or less how this works let's now go ahead and change this so I'm going to
+1:16:27
+say please increase the priority for my gym
+1:16:35
+session uh to uh in two days from now and let's see if it can just
+1:16:42
+natively find it based on that and so it's searching and then it's
+1:16:47
+updating and again I didn't even say high priority so let's just see it says
+1:16:53
+yeah so it went ahead and updated it to high right and so that's great but the
+1:16:59
+only problem was is that that's not in two days from now that's in one day from
+1:17:05
+now and so I think just in order to do that maybe I'm just going to test this message out but I'm just going to say
+1:17:11
+instead of two days from now I'm just going to say like uh let's just see if it actually change uh changes this if I
+1:17:17
+say February 21st on February 21st and let's take a
+1:17:24
+look if I just format it a bit better because maybe that issue might be arising from the AI agent here and so
+1:17:31
+now it's gone ahead and change that to February 1 and this is now high as well so it could be just that um I'm honestly
+1:17:40
+not too sure why it didn't do that because we did feed in the date here but maybe it's just uh you know maybe just
+1:17:47
+structuring the actual prompt a bit better is going to be more fruitful for this and so that's essentially AI agents
+1:17:54
+and this is now our official first AI agent that's been built out and our second workflow in general what I want
+1:18:00
+to do is add one more thing on to here and this is going to be to call a subw workflow and we're going to build off of
+1:18:07
+this a third workflow here and what this third workflow is going to do is it's
+1:18:13
+going to more or less if I just circle back to our initial example here it's going to get a list of create a report
+1:18:21
+from all of the people that we didn't call on that given day if they filled
+1:18:27
+out a form so somebody comes in fills out a quote form on your website let's say you or your sales team don't give
+1:18:33
+them a call we need to create a report and send that back to you so that you have the information that you're looking
+1:18:38
+for so what I'm going to do here is I'm going to go ahead and I'm going to create a third workflow and this third
+Create third reporting workflow
+1:18:45
+workflow is going to have a trigger as one executed by another workflow so essentially what that's saying is like
+1:18:51
+hey the only purpose of this workflow is to be called from an agents essentially or another workflow and so to come in
+1:18:59
+here if I just double tap this again we need input data right and that input
+1:19:05
+data we can just Define uh using Json and it gives us just like test data here
+1:19:12
+right and so that's more or less it I don't even think we need any Json data
+1:19:18
+here so I'm just going to go ahead and um I'm just going to I'm just going to
+1:19:23
+keep it the way it is and that looks good good there's nothing really that we need to do here and so the next thing that we're going to do here is we're
+1:19:29
+just going to use Google Sheets and we're going to find the values in
+1:19:35
+here as of today right so more or less
+1:19:40
+we're just going to get sheet rows here and we've already done the credentials
+1:19:46
+so that's all good to go we can just choose the leads sheet that we created and we're going to choose the the sheet
+1:19:52
+down here right once again and and yeah more or less all we need to do is filter
+1:19:57
+use a filter how are we going to find this we're going to find it based on the date here and so in order for us to do
+1:20:02
+that essentially we're just going to choose date and the date is going to be an expression and that date is going to
+1:20:08
+be today now the issue with this is if we run it it's not going to return any results right and the reason it's not
+1:20:14
+going to return any results here is because these are all structured improperly so what I'm going to do is
+1:20:21
+I'm first going to just hardcode this for now and then I'm going to show you exactly how this works
+1:20:28
+um in in like a millisecond after this so now when we test it based on
+1:20:35
+today it's going to find these three items and so what I did was I searched
+1:20:41
+based on today but the problem was is in the previous workflow and I'm just going to open this up in a new tab here I put
+1:20:48
+now and the problem is is with now it gives you the hour it gives you the minute it gives you the second it gives you the millisecond and so the problem
+1:20:55
+is is that we need to go back to the sheet and we need to go into this Google sheet module when we have a new
+1:21:00
+submission coming in we don't want to put necessarily the time of the day but we want to put today here right and so
+1:21:08
+now it's just going to pull in the exact day that the lead came in and not the millisecond and everything like that so
+1:21:15
+we can update this and now when we search for it it's essentially just
+1:21:20
+searching for today right and so that more or less is how this workflow is
+1:21:25
+going to start so we're going to search today and from here on out what we want
+1:21:31
+to do is we want to grab that data and maybe we only want to find people that
+1:21:37
+are not rejected right and perhaps we also want to have a column here being
+1:21:42
+like called and maybe in your team you come in here and your sales reps uh
+1:21:47
+choose who they have called and we want to filter based on who hasn't been called and also who um has not been
+1:21:54
+rejected so if we Circle back into this workflow what we're going to do now is
+1:21:59
+we're going to effectively do an iterator through all of these and so
+Data types in n8n
+1:22:05
+this is where we get into data types in nadn which is super important and we're
+1:22:11
+going to be going into this uh quite extensively here not not like too long but I think that this is probably one of
+1:22:17
+the most important things that you need to know when starting with nadn and so
+1:22:23
+circling back here we have this Json data right and there's a lot of different data types going on and so let
+1:22:30
+me kind of explain what I mean by that so if I just go into this uh chat gbt
+1:22:37
+here it took me actually a long time to get this prompt right but we have a lot of different data types in n8n and to be
+1:22:45
+honest I'm sure that you probably know a ton of these like you probably know what text is and so an example of text would
+1:22:52
+be Jane Doe right somebody's name is a text field or for example somebody sends
+1:22:58
+in that message box right on the form I'd like to learn more about your business that's text and then we have
+1:23:05
+numbers over here and what a number is is like 5,000 and this could be their budget or a number could be 50 which is
+1:23:12
+the number of employees that this company has right and so these are pretty common you see these almost every
+1:23:19
+single day but there's a couple more complicated ones let's start with the easier ones first Boolean so Boolean is
+1:23:27
+true or false it can be one of two things true or false and so you know
+1:23:33
+when you think about it it's like hey um when you put a budget on somebody it's
+1:23:38
+like does this surpass $1,000 the answer is either true or false either it's like
+1:23:44
+a hundred or $200 and it's false or it's $5,000 and it's true date you're
+1:23:49
+probably pretty familiar with as well and this is just essentially the date that you know something's on so date
+1:23:56
+could be the form submission like we received a date could be a follow-up date and then we have binary data here
+1:24:02
+this is like just essentially saying hey this is not any of these other fields this is more like a PDF document or it's
+1:24:08
+like a PNG or whatever it's like some form of data right that you can't it's
+1:24:14
+like a file or an image essentially right and so that's more or less it and then that kind of leaves us with these
+1:24:20
+two things here which is an array and a collection and this is more or less literally the backbone of NM so if we
+1:24:28
+like Circle back into um you know our scenario here we have arrays and um
+1:24:36
+collections all the time this in fact is a collection this is an array so let's
+1:24:43
+talk about what this necessarily means so an array is just a list so for
+1:24:48
+example if you were to go to the grocery store you might be like hey I need to buy oranges and I need to buy bananas
+1:24:56
+and I need to buy mangoes and this is a grocery
+1:25:01
+list and very similarly this in programming would be like an
+1:25:07
+array now arrays are lists right but they can be a list of multiple different
+1:25:13
+things this list could be in this instance it's text but it could also be
+1:25:18
+a list of numbers so for example you could have like a list of like like 50 and 200 and
+1:25:27
+500 and this could be like three different companies and the amount of employees they have a list could also be
+1:25:34
+a list of like dates for example could be a list of whatever but the most
+1:25:40
+common one is a list of objects right and so circling back here what an object
+1:25:47
+is is it's just like a group um like a group of labeled info so you can think
+1:25:53
+about a new lead right so that new lead is an object so effectively if we were
+1:26:00
+to test this trigger here or go to this form submission and you can see that
+1:26:05
+it's just not triggering properly so we need to test this and unpin to test we have this form right this is just like
+1:26:12
+an object of a client it's like hey tell me the person's first name last name email budget message and we're just
+1:26:18
+essentially grouping all that data into what is called an object right so we have and these are in Key value pairs so
+1:26:26
+essentially name equals Jane email email equals this similarly we're pulling in
+1:26:31
+the data from this lead list here right and we have an object and each object is
+1:26:37
+a row so this is a row this is an object this is an object this is an object and it's just data that's collected about
+1:26:44
+somebody so first name jono last name catli and these are keys and these are
+1:26:49
+values right so this is the key and this is the value with the key it never
+1:26:56
+changes this is how we reference people whether the person's name is jono or
+1:27:02
+whether the person's name is Andy or whether the person's name is Stacy that
+1:27:08
+the way we reference it is always the first name but these values always are
+1:27:14
+going to change and so it comes down to key value pairs just like a Google sheet you have pretty much the key which is
+1:27:19
+last name and then you have all of the values here right and so more or less
+1:27:26
+that's essentially Json right or in an object in Json so you have key value pairs first name jono last name cat Liff
+1:27:33
+and then you can have an object right that is within a list and this
+1:27:39
+list can be instead of it being like hey we have a a grocery store list here with
+1:27:45
+like these three things bananas oranges and mangoes now we have a list of client
+1:27:51
+client one C client
+1:27:56
+2 and client 3 right and so this is more or less what we're doing and the thing
+1:28:01
+with a list is we can actually pull it out and we can go through it one by one
+1:28:08
+by one and so that's exactly what we're doing is we're just breaking it out with
+1:28:13
+this iterator and so this splitting happens right we're going through one
+Iterators on arrays
+1:28:18
+individually the only difference here is that we actually don't need to have have
+1:28:24
+this split because this Google sheet by default is a split so if we were to zoom
+1:28:30
+out here we can see that this runs one time so we get data coming in here it
+1:28:37
+runs one time then we find data on this Google sheet and we return three values
+1:28:42
+and we're going through those values one after another so we first start with jono then we go to Andy then we go to
+1:28:50
+Stacy right we can take a look at the data we have jonno joh Andy right and for whatever reason it's
+1:28:57
+not pulling in Stacy as well and that is because she doesn't have the date here
+1:29:02
+right so it's only pulling in three people that we have and so because this
+1:29:08
+is already pulling in three values and we're going through it one after the next we're going to first go with jonno
+1:29:15
+then duplicate jonno then Andy then Stacy um we don't actually need this what we need to do is we need to have an
+1:29:21
+array aggregator okay and what an array aggregator is going to do is it's going
+Array aggregator
+1:29:27
+to effectively bundle all of these together so in the array aggregator we're going to do all items we're not
+1:29:33
+looking to just pull out certain things we want to pull out all of the items and so if we were to run this again and now
+1:29:40
+let's just paste this same date in for Stacy it's going to pull in all four people here right and you can see now
+1:29:48
+that we've pulled in four items and we've bundled it into one output
+1:29:54
+and so moving forward this is technically running right here four
+1:29:59
+times you know if there's anything in between these it's going to run four times but then on that flip side it's
+1:30:05
+only going to run once because we're bundling we're merging everything back in together into this output here right
+1:30:11
+and so this is essentially what lists are and arrays aggregators are it is a
+1:30:17
+bit confusing but you can think about it like this you go through one result at a time until they're all done right and so
+1:30:24
+more or less what I'm going to do here is I'm just going to expand this out and you can see that we're bundling
+1:30:30
+everything in here right but we could also add in a filter here and this
+1:30:35
+filter is going to remove anyone that first of all has been called so if
+1:30:41
+called is equal to true it's going to remove them out of here and we're going
+1:30:46
+to add another condition in here and that is going to be if
+1:30:52
+rejected is equal to to false right so we only want to get a
+1:31:00
+report every single day if the person hasn't been rejected but they also haven't been called right so they cannot
+1:31:05
+be called and they cannot be rejected and um sorry this should be true as well and
+1:31:13
+so let's just run this through and we're going to see that it's
+1:31:20
+WR uh wrong type false so essentially um what we want to do instead is we're
+1:31:27
+mixing up data types here which is great you can see that it's referencing it as a Boolean um what this is essentially
+1:31:34
+saying is like we're more or less saying is equal to true but we want to say the
+1:31:42
+text contains true and the reason why is because this is text and we're just
+1:31:50
+saying that hey does this text field here which is right here does that contain the word true and so we can try
+1:31:58
+this out again and we're still getting the same
+1:32:04
+issue so we're going to go through and uh fix this
+1:32:09
+up let's just take a look at the problem here and this is worthwhile to debug together so it says wrong type false is
+1:32:17
+a Boolean but was expecting a string right and so this is why you have to f
+1:32:23
+figure out data types early on because if you don't then you're going to be stuck trying to debug things CU you're
+1:32:29
+like oh gosh like why is it saying boo in when it's supposed to be text because if you're trying to match things like
+1:32:35
+this and it's not the right data type then it's going to be problematic so
+1:32:40
+maybe what we could do is the Boolean is false and the Boolean is false and now I
+1:32:49
+was trying to pass in this text even I make these mistakes all the time too but now we can reference it for what it was
+1:32:55
+which is a Boolean and it's now going to work and let's see what happened we
+1:33:00
+discarded three people right and we discarded jonno because he was already
+1:33:05
+rejected we discarded Andy because he was rejected we discarded Stacy because she was called which means that we only
+1:33:12
+have one person left in this list right and so this could be for example two
+1:33:19
+people so if I come in here and I do like Richard and Johnson and I do this
+1:33:25
+again now there's going to be two people that are passed right so there's five people that entered there's two people
+1:33:33
+that passed the filter and then we're bundling them together so that we only
+1:33:38
+have one item moving forward the reason why this is important is because say we send an email in the next
+1:33:44
+flow if we didn't bundle these together and we sent two people down
+1:33:50
+this path it means that we'd send two emails we'd send one for each person that passed right but we don't want to
+1:33:56
+send one for each person that passed we only want to send one email for both people and that is why we aggregate it
+1:34:02
+together right and so that's the next lesson that you know is really really important to talk about here and so more
+1:34:10
+or less we're on our way to building out this system but I think the thing is is that I want to talk about code here for
+1:34:17
+example the thing is is that when you're dealing with programs like NN not everything is going to be perfect now
+Code in n8n
+1:34:23
+I'm not saying that you need to be a coder you don't even need to know code at all like you you just don't need to
+1:34:29
+know it but you need to know that it exists and you can leverage it at certain points in time and so what we
+1:34:35
+want to do is we want to take this data here which is in Json like this and we want to essentially send ourselves an
+1:34:42
+email with all of the names right and so we need to change this data type
+1:34:48
+from an array of collections to text right and so you know it's an array
+1:34:55
+because it has this bracket here and this bracket here and you have these collections of individuals right you
+1:35:02
+have another array here we need to turn this to text and so how we do that is we hit the plus button and there's no
+1:35:07
+built-in way in any end to do this um and that's actually why I'm pretty
+1:35:12
+excited to show you this so we hit back here and we can go to data transformation and we can run code and
+1:35:19
+so all this to be said you really don't have to know anything here we're going to do is we're going to just ask chat PT
+1:35:26
+to do this and if you guys get stuck on the step you can just screenshot the
+1:35:33
+code okay and then just plug it in and I'll show you how to do this in case you get stuck and and you can't figure it
+1:35:38
+out so all I'm going to say is I'm going to copy this and I'm going to paste this
+1:35:43
+into chat gbt hey I want to to turn this
+1:35:50
+list of data into a text field where I have one text
+1:35:58
+string that goes through every
+1:36:04
+person and I'm going to paste it in and I'm it's just going to say like here's
+1:36:10
+my data and then the bottom here I'm going to say this is the sample format
+1:36:16
+that I want for every person I'm going to say name equals
+1:36:23
+um John Smith email equals John
+1:36:31
+gmail.com budget equals 10,000 and
+1:36:37
+message equals high and I'm going to say can you please write me JavaScript code
+1:36:47
+in nadn format to achieve this and I'll leave this in the
+1:36:53
+description down below for you guys to to work with but essentially we're just going to ask chat
+1:37:02
+gbt and for whatever reason it looks like it uh it stopped generating so I'm
+1:37:08
+just going to follow up here and ask another question okay sweet so it's now going through and it's giving us the
+1:37:15
+code and at this point in time I don't know if it's going to work or not so I'm just going to test this step and
+1:37:21
+see and so it looks like it's pulled it out into another array of objects right
+1:37:30
+with text and text and this and this and that's not what we want we want just one of
+1:37:36
+these right one text field with everything in there so I'm just going to
+1:37:42
+ask it again that didn't work I want all the data in
+1:37:50
+text um in one plain text field with every value
+1:37:59
+separated by a line
+1:38:04
+break and it's going to give it another shot here because it's probably not going to get it right the first
+1:38:09
+time and so we can take a look at this
+1:38:14
+and see if this worked so we'll copy this back in and test the step
+1:38:24
+okay sweet and this time it worked so we have text and then we have name equals
+1:38:30
+jono this for sln is a line break in code and this is just going to naturally
+1:38:36
+form a line break email equals this line break budget equals this line break
+1:38:41
+message equals test um test message line break line break name Richard Johnson and so on and
+1:38:48
+so forth so now we have our list now if you guys are struggling with this and you want to figure this out out all you
+1:38:54
+have to do is just literally take a screenshot turn this into chat GPT and
+1:39:00
+say convert this to text for me and it's going to go ahead and take my screenshot
+1:39:07
+and literally just um please
+1:39:13
+turn that screenshot into text for me
+1:39:18
+and maybe okay there we go right and so you can just ask it again and it's literally just going to take that out
+1:39:24
+and you can just copy this and then paste it right back in here and you're good to go and so all we have to do is
+1:39:32
+just merge this into Gmail and then just send ourselves an email so I'm just going to send myself an email here and
+1:39:38
+I'm going to say list of new leads and this is going to be in plain text and we
+1:39:44
+can just drag this text message over here and send that off and so let's give this a shot let's test this whole
+1:39:51
+workflow out we've run the code we've sent the message and now circling back to my inbox
+1:39:58
+here we have a list of new leads and here is all of the leads that came in
+1:40:03
+for the day that both were not called and were not rejected right and so you
+1:40:08
+can just set this up to run every single day I just want to turn off this um
+1:40:14
+append andad attribution and then it's not going to send that weird thing at the bottom being like this is sent by
+1:40:20
+naden and this is a marketing ploy to get as many customers as possible can you please sign up for an for me please
+1:40:25
+uh if you want to avoid that then you can just turn it off but all this to say guys like this is kind of scary right dealing with code
+1:40:31
+but you don't actually have to do it Chad gbt is going to do it for you just keep going through this process until
+1:40:37
+you get it right I'll leave the prompt down below to get this in the description or in the blueprints and uh
+1:40:43
+yeah you can just go through it and so that's more or less it and right now
+1:40:49
+this is triggering on a sub workflow we could actually just change this out
+1:40:54
+maybe you know what I changed my mind and I don't want this to be a subw workflow maybe I want this to be a
+1:41:00
+schedule trigger instead and I want this to be like triggering every single day
+1:41:05
+maybe at like I don't know let's let's choose like 7 p.m. at the end of the day
+1:41:10
+after you know everyone's gone to bed and we can just say okay you know what every single time at 700 p.m. this
+1:41:18
+workflow is going to trigger and you just automatically get um notifications every single day as to who was called
+1:41:26
+who wasn't all that kind of stuff right and so with this module we went through a lot of different things we went over
+1:41:31
+the scheduler we went over um iterators and aggregators and all of that kind of
+1:41:38
+stuff and just to kind of recap this one more time because this is like super important we have multiple different
+1:41:44
+data types you guys are familiar with most of these you got text you got numbers you got Boolean true or false we
+1:41:51
+got date and we also have files like binary we're going into this later and then these two are the ones that you're
+1:41:57
+probably unfamiliar with arrays and collections that more or less in nadn
+1:42:03
+kind of looks like this this is Json and then anything that's an array is just a
+1:42:09
+fancy way of saying a list and it's anything contained within this square bracket and this square bracket and this
+1:42:15
+array this list can be text numbers but in most cases it's going to be objects
+1:42:22
+like this this object is just an unordered list or a file or a folder of
+1:42:27
+whatever it is you want it to be in this case it's just literally like a row on a Google sheet where you're just getting
+1:42:33
+somebody's first name last name email phone number all that kind of stuff and there's it's sorted by key value pairs
+1:42:39
+you can think about the key is essentially just what's in this header here and the value is just anything
+1:42:45
+below it right so all of these values here are the values they're going to
+1:42:50
+change right but they all have the same keys and so essentially that's more or
+1:42:55
+less what data types are in nadn and just in general I know it's kind of
+1:43:00
+boring and it's technical but out of everything to learn that's probably going to be one of the most important
+1:43:06
+things that you can learn and so circling past this what I want to do guys is we just have two workflows left
+1:43:12
+is I want to talk about building these out the first one is going to be uh really simple it's going to be a web
+1:43:18
+hook and an https request and kind of showcasing what these are so let's type
+Webhooks in n8n
+1:43:24
+in web hook for a new uh workflow this is essentially just saying if you send data here it's going to start this
+1:43:30
+workflow if I just copy this and I start this trigger and I'm listening and I just go to that URL it's going to say
+1:43:37
+workflow is started and we actually have data we just you know we don't have that much data but you know that's that's
+1:43:43
+data in and of itself and so that's more or less what a web hook does it just retrieves data from whatever various um
+1:43:51
+applications you're using and of those applications could be like a form submission so just like we set up before
+1:43:57
+we had the nadn forms but we could also have like a form on your website right and there's a million one different form
+1:44:02
+of sub uh submission softwares out there and what we're going to do is just use something for free so before we get
+1:44:08
+started we're just going to go into this web hook here and we're going to change this to an HTTP post method just because
+1:44:13
+something's sending a post request over to uh this this URL here so once this
+1:44:20
+you can think about like posts and Postman once that data is sent uh over to this URL then it'll start
+1:44:26
+this workflow and so this is just receiving data so we're going to use tally forms for this and this is free to
+1:44:31
+get started you can just test it out if you want to and then um yeah that's essentially it so we're going to log in
+1:44:36
+here and all I'm going to do is I'm just going to create another form here and um we can just call this sample form and
+1:44:44
+I'm going to do like field uh or I'm going to do short answer and then this is just going to be uh first
+1:44:51
+name and then I'm also going to add in another form or
+1:44:57
+field in here and this is just going to be email okay sweet so something like super
+1:45:03
+super simple we're going to publish this nothing too crazy here we're going to go to Integrations and they have this web
+1:45:08
+hook functionality here and so it's asking us hey we need a web hook and what it's saying is like we once this
+1:45:15
+form is submitted we will send data we'll send the first name the last name all the for form Fields we're going to
+1:45:20
+send it somewhere tell us where you want us to send it and that's where this URL comes into play here so we're going to
+1:45:25
+copy this URL and we're just going to stick it in here and connect it and as soon as this is published it's going to
+1:45:31
+send data over to our NN endpoint right here so we can listen for events and
+1:45:37
+essentially all we want to do is we just want to give this a shot so I'm going to copy this link right up here and I'm
+1:45:43
+going to test this form out and I'm going to put my name and my email in here okay and we're going to
+1:45:49
+submit and perfect we' received data here the output of data I'm going to pin this first of all and yeah we could we
+1:45:57
+could do you know here's a lot of different data we we'll change it to the schema here just so it's a bit easier on
+1:46:03
+the eyes we can see that in this body section there's data and here's the fields that we submitted right so we had
+1:46:10
+this field with my name and then my email down here so all this data is being passed in and so that's
+1:46:15
+essentially more or less it right and so we can do literally whatever it is that we want to do with this I'm just going
+HTTP requests in n8n
+1:46:22
+to show you one example example and maybe with this you can just follow along with me and then just take a look
+1:46:27
+with your eyes just to you know take a look and see how this works um and so I
+1:46:32
+just logged into my go high level account this is just essentially my CRM right it's my customer relationship
+1:46:38
+management software it's where I store all my contacts and so I'm assuming you don't have access to this so I'm just
+1:46:43
+going to show you kind of what this looks like and essentially what we're doing here is we're just going to oh I
+1:46:48
+just need to refresh this page we're essentially just going to send data okay okay um that we received from this form
+1:46:55
+right so somebody fills out the form we receive it in our web hook and we want to just enter that into like our CRM we
+1:47:01
+want to create a new contact and so we can do that in I'm going to show you this in the CRM and then I'm going to show you a practical use case so that
+1:47:08
+you can kind of take a look on your end and so I could just create for example a new workflow from scratch and go high
+1:47:14
+level I could just call this test and then have like an input um I can have a
+1:47:20
+in inbound web hook here where just send data straight from this into there and
+1:47:26
+this is where the HTTP request comes in and so with HTTP request we're sending data somewhere else right we're sending
+1:47:33
+it outside of nadn and the cool thing about this is like take a look at like
+1:47:39
+all these other workflows here these are all technically like HTTP requests like Google Sheets is an HTTP request Gmail
+1:47:45
+is an HTTP request if we go into any of these actions in the app like literally
+1:47:51
+every single one of these are HTTP requests and
+1:47:56
+essentially the difference between this and HTTP request is just that the NN team has gone in their developers have
+1:48:03
+spent time and they've built native Integrations into all of these and there's tons of them right but they
+1:48:09
+don't have every single app out there in the world and that's where the HTTP requests come in you're essentially having to do what Their programmers
+1:48:15
+haven't done already right and so you're just creating something from the ground up and this is more like an advanced feature here so I'm just going to keep
+1:48:22
+this nice and simp simple but essentially we can send data anywhere we want to and so the method is like you
+1:48:29
+know essentially saying what do you trying to do with this a get method is essentially saying hey we want to retrieve data back from a source so I'm
+1:48:36
+going to like send off data from my to my CRM to retrieve information about a
+1:48:41
+client or posting could be like hey I want to send a new client from this form submission I want to send that into the
+1:48:47
+CRM to create delete is delete uh and then update is you know updating some or
+1:48:53
+or patching is updating and and so and putting as put is update as well and so
+1:48:58
+that's essentially it all we're going to do is we're going to post we're going to send data we're like a post man we're delivering it to our CRM to essentially
+1:49:05
+add somebody in there and we're just going to add in the URL here and um
+1:49:10
+essentially more or less all we need to do is send a body and you know there's
+1:49:15
+multiple different ways of structuring this but the easiest is the key value pairs here and I'm just going to put in name and I'm going to put in email
+1:49:23
+and so effectively that scared me I like a pop in my in my uh right next to me I
+1:49:28
+don't know if you can hear that or not but that definitely startled me so I'm going to put in the values here like the name that we got from the form and I'm
+1:49:35
+going to put in the email and we have this data we're good to go and all we have to do is test the step and we sent
+1:49:42
+it to this URL similarly to how the web hook we had to you know update in this
+1:49:47
+we had to put this link here saying hey send data to here we're also saying in the inverse we're saying hey here's
+1:49:53
+something from an external source and send it there and we can see that the request has been received and so if I
+1:49:59
+just look at the data I can see that I passed in that email and that name and
+1:50:04
+this is a quick way to you know send data into your CRM and then like literally in two seconds right you could
+1:50:12
+essentially um have a module and this is outside of the scope of this but you could have a module that is like call
+1:50:19
+and in 2 seconds bam somebody requests the form 2 seconds later it's like it's calling you and or the sales rep and
+1:50:26
+they pick up the phone and it patches them into the client and that client every time is like holy crap you guys called me that fast like that's insane
+1:50:33
+because it's all automated there's nothing that you're doing manually here other than picking up the phone and so that's essentially that now we can try a
+1:50:39
+different way with something that's a bit easier so if you guys go to request cater.com or if we just type into Google
+1:50:45
+request catcher here this is a simple way to test it out so this essentially just receives information that you're
+1:50:52
+sending so you can put anything here it doesn't matter and we're just going to send data here and so effectively we
+1:50:58
+just have to copy this right and come back in here and I'm just going to send the same data to the link we just
+1:51:05
+created here in you know this URL and so if I test this
+1:51:11
+now we can see the request is caught and we received all this data like name and
+1:51:16
+email so point being is like you don't have to use just go high level you could use HubSpot you could use Salesforce you
+1:51:24
+could use a million in one applications like there there's just so many applications out there that you can use
+1:51:30
+for this kind of stuff right and so this is more advanced functionality um you don't just have to use like HTTP
+1:51:36
+requests to end the workflow and send data but you could have like a something here being like hey I want to get
+1:51:42
+information from go high level or from my CRM like maybe I don't have the
+1:51:47
+contacts email so I need to or first name or last name so I need to grab that information and then you can continue on
+1:51:53
+with this workflow in additional steps right and so that's that's really cool and so that's the fourth workflow that
+1:51:59
+we've built out together and then just the last one that I want to go over today is essentially building out this
+Building a RAG AI agent
+1:52:05
+um this more advanced nadn um AI rag system here so we're going to circle
+1:52:10
+back here this is actually pretty fast to build out and so let's just seriously uh let's dive into it and and let's get
+1:52:17
+started so we're going to create the final workflow here and essentially all this is going to do is it's going to
+1:52:23
+take a chat message and so we're just chatting back and forth and so bottom
+1:52:29
+line is is that's pretty much it and then we have Google drive here and the only problem with this whole workflow is
+1:52:35
+just this Google drive module because it's a bit of a pain in the ass to set up and so all we're going to do is we
+Google Drive integration
+1:52:40
+want to download a file so I'm going to go ahead and add in credentials this is
+1:52:45
+a bit of some work to get set up properly so I'm just going to move these
+1:52:51
+over to to kind of show you how this works so we need a client ID and we need
+1:52:56
+a client secret if you're watching this in in a year from now you're probably not going to do this and like all the other modules you just sign in but for
+1:53:02
+right now they haven't built it out yet and so what we need to do is we need to get this information so all you have to
+1:53:09
+do is essentially follow what I'm doing you can open the docs and just read it here but um I'm just going to skip this
+1:53:15
+and go into the Google Cloud console I'm going to type this into into Google
+1:53:21
+let's go ahead and click the first link here Google Cloud console the first thing we're going to want to do is create a new project here and so we can
+1:53:29
+just enter in new project which is right here and I'm just going to call this NAD
+1:53:35
+n-4 or whatever I don't know super creative with the names today and effectively it's just going to take a
+1:53:41
+couple seconds to load and then we're just going to enter back into it once it has loaded up here and we can start the
+1:53:48
+process of this authentication now that we're inside it just to make things simple they do have
+1:53:54
+a bunch of apis that you can integrate into which are down here but I'm just going to do Google Drive up top here and
+1:54:01
+so all I want to do is click the first link and then I want to enable that
+1:54:06
+again and so that's step number one essentially finished here right we're
+1:54:12
+just enabling the Google Drive um for nadn to access it I'm going to search up Google Drive uh
+1:54:19
+Google drive again in the search bar here and repeat this process and I'm just
+1:54:25
+going to manage it and we're circling back to essentially the same page here which we're going to create credentials
+1:54:32
+and for whatever reason like I don't know it just I think at the time of the recording there's just some bug and it's
+1:54:39
+it's like causing me to go in Loops here so I apologize um just for for that but
+1:54:45
+I'm just going to search it back up and I'm going to manage this once again and so effectively
+1:54:52
+this time we're able to create the credentials and the bug is now gone for whatever reason and so we can just go
+1:54:57
+ahead and do so it's going to be application data and we're going to just type in a service account name I'm just
+1:55:04
+going to do like n8n and then create and from here we're going to select a role
+1:55:10
+and I'm going to be an owner on this and we're going to click continue and then click done and this step is now
+1:55:17
+completed and so from here what I would like to do is I would like to
+1:55:23
+effectively go to the ooth consent screen and start this process down here
+1:55:29
+below and so we'll click get started and I'm going to call this an app name nnn -4 or whatever I'm going to enter in my
+1:55:36
+email here this is going to be an external app this is all boiler boiler plate just to just to let you know so
+1:55:42
+I'm going to enter in my email here uh oops and then we're going to
+1:55:49
+click next and I agree continue and create create and so we've created the second part of this which is the oo and
+1:55:57
+lastly we're just going to create this ooth client here and this is going to be an application type web application and
+1:56:04
+again I'm just going to call this like NN or whatever and we have this uh URI down here right authorized URI redirect
+1:56:12
+so we're going to add this and circle back into nadn and copy this link and then paste it in here and then from here
+1:56:19
+we can just click create and we're pretty much done this is just saying hey when we go to request to connect NN into
+1:56:26
+into Google uh drive it knows how to redirect back lastly we're just going to go into audiences here and all I want to
+1:56:33
+do is just create a test user and then we're good to go so I'm going to create this test user and I'm just going to enter in my email here click
+1:56:42
+save and we have now gone ahead and added myself as user we can come in here and
+1:56:50
+uh just enter in our client and secret ID so in order to get that we're going to navigate back to the client section
+1:56:57
+here we're going to and click on this and we have our client secret here and
+1:57:05
+then we also have our client ID which is up top here and we can just paste that in and then sign in with Google and so
+1:57:12
+now we've connected in Google Drive into our account here and so we'll click
+1:57:18
+continue and we'll give authentication to everything and now we have connection between nadn and Google Drive so all in
+1:57:26
+all huge pain in the butt just to do something that should be like literally built in but you know that's essentially
+1:57:32
+what the process is okay now that we've set up Google Drive integration with NN we can continue forward so essentially
+Adding PDF documents into RAG system
+1:57:39
+all we want to do is download a file here so what we want to do is just find a file in our Google drive to download
+1:57:44
+so if you can just upload a PDF file into your Google Drive that'd be fantastic and just for the purpose of
+1:57:50
+this tutorial what we're going to do is we're just going to search for that file and I'm going to type in agreement here because my file has agreement in the
+1:57:57
+name and so we're going to find that and we're going to download this so if I
+1:58:02
+just you know run test here it's essentially going to take that file and download it and this is now another data
+1:58:08
+type which is binary data and we don't want it to be in binary data we want to convert this okay into from a PDF into
+1:58:17
+um into Data that we can use so I'm going to search for PDF here and it's
+1:58:23
+actually not convert it's extract from a file and we're going to extract from a
+1:58:29
+PDF so essentially we're taking you know data from a PDF and we're going to get
+1:58:35
+another output so let's try this again I'm going to hit test we're going to download that and then it's going to extract the data and let's look at the
+1:58:41
+results so it's coming back in Json data and it's coming back in in this schema
+1:58:46
+and so you can think about it like converting this from a PDF document into text so if if I just like open up this
+1:58:53
+document here so we can take a look at what we have going on this is just a standard contract there's tons of
+1:59:00
+information on here right the goal is is to turn this into a bot that can like literally pinpoint data and like respond
+1:59:08
+back to us so we could be like hey what's the date and it's like this is the date or so on and so forth or what
+1:59:14
+company is this and you know it'll tell us or what services are we offering and all that kind of stuff and so this is the first part we're just converting it
+1:59:20
+from a PDF into Tex and then once we get that done the next step that we
+1:59:26
+effectively want to do here is to put this into an inmemory Vector store so
+Adding data into vector store
+1:59:32
+let's go ahead and do that we're going to do Vector store here and we're going to choose inmemory Vector store now
+1:59:38
+personally there's better results like pine cone is is going to be better right and I prefer it it's just that for this
+1:59:43
+tutorial I want to start with the easiest way possible and the inmemory vector store is just kind of like built
+1:59:50
+into into N8 so so it's really easy to get started so I'm going to go ahead and choose add document to Vector store here
+1:59:57
+and effectively all we're going to do is enter this information in to the vector store now there's a couple parts to this
+2:00:03
+first of all we need like reasoning and logic to understand what's going on and that's why we have this embedding model
+2:00:09
+here and then secondly what we're going to do is we're going to have this default data loader and so let me
+2:00:16
+explain what this default data loader does because I think this is important the role is you just think about it as
+2:00:22
+like Hey we're we're changing it into a more friendly format right so you can
+2:00:28
+almost think about it like PDF into text we're breaking it down right so data Loos are essential because they convert
+2:00:35
+raw data into format that rag systems can understand and process so we're taking that text and we're converting
+2:00:41
+into something that is going to be familiar with a vector database and when
+2:00:47
+we think about Vector databases essentially what this is doing is it's just a very efficient way of storing
+2:00:53
+data in a database so that we can retrieve hyper efficient answers so for
+2:00:58
+example if you typed in like cat for example it's going to know that you're looking for something over here if you
+2:01:05
+type in Lion it also knows you're looking for something over here and if you looked for something like you know a
+2:01:10
+banana it's like okay probably not over here and it's over here right next to Orange and mango but the thing is is
+2:01:16
+like what we're doing here is we're embedding things into this Vector database with numerical representation
+2:01:22
+so these are numbers and you can think about these numbers as essentially something like this right so it's giving
+2:01:27
+numbers for visual representation to capture the semantic meaning so even if
+2:01:33
+you don't say like if you're asking a question it can't find the exact exact answer it's still going to understand
+2:01:40
+how to find comparable text that has a lot of similarities so you type in banana and it's going to go more towards
+2:01:46
+the fruit side of things rather than the animal side of things so this is how we can retrieve information so if you think
+2:01:53
+about like a conventional chat bot essentially what this is doing is if it if if somebody asks you know this rag
+2:02:00
+system a question and it's like hey what's the price of your services the price section's over here and then it's
+2:02:05
+like hey can you help me with this specific question which is located over here and then it might be like what
+2:02:11
+services you offer and the services section is over here and then it the next question might be like how do I
+2:02:16
+book a call and that section stored over here so it can find the exact answers that you're looking for right and so
+2:02:23
+essentially all we have to do is just um have the data type as Json and this
+2:02:28
+looks good to go and we're going to create a text splitter Now text Splitters there's three of them we're
+2:02:35
+just going to choose recursive character text splitter this is pretty much the Baseline as to what you should be using
+2:02:41
+most of the time and why that's the case is that this is like a text splitter you're when you're dealing with rag
+2:02:48
+systems and Vector databases you want to break the text down the smaller bite-sized chunks because if you just
+2:02:54
+load in like one document it's just way too much informational process so you need to break it down into smaller
+2:03:00
+pieces but the question is is how do you break it down into smaller pieces and with recursive character Splitters
+2:03:05
+they're keeping the semantics and the meaning intact so they're going to first start to break it down by paragraph and
+2:03:10
+if that's still too much then they'll break it down by sentence so that the meaning is still there right so when you
+2:03:16
+have all these pieces and chunks stored in your your vector database it's like you know the whole meaning is there it's
+2:03:22
+intact it can find something that's really similarly related but if you use something like a character splitter it's
+2:03:27
+going to say okay at 30 characters cut this off at 30 characters cut it off and then it breaks sentences up by
+2:03:34
+characters which means that if you were to search for it half of the meaning of what you're searching for is probably
+2:03:40
+gone so the whole point is is that you're just keeping critical sentences
+2:03:45
+intact so that their semantic meaning is there so that when it searches the database the vector database it's not
+2:03:52
+searching and pulling data back that's like half complete or whatever Half Baked so that's more or less what it is
+2:03:58
+and so we can give this a shot and we can load data in so please test and first of all let's just see see
+2:04:05
+if this is actually going to successfully load things in and so in this instance um it looks like it was
+2:04:11
+good right and we loaded in tons of different stuff here and you can see that in this particular scenario it
+2:04:19
+split 12 times and there's 43 items that returned in general so we broke this contract down into way smaller
+2:04:26
+bite-sized chunks and that is a good thing so that we can essentially store
+2:04:32
+this data and now that we've stored it we want to retrieve it please keep in mind that this is just one document if I
+2:04:39
+was to you know do this for my company I'd be loading in like a thousand of these documents 500 website Pages all of
+2:04:46
+my standard operating procedures every single text and email and every single piece of information so that knows
+2:04:52
+everything about us and the whole reason why I'm going over this too is because I just think that this kind of information
+2:04:58
+here is critical to AI agents and to nadn in general and this is what makes it stand out uh you know apart from
+2:05:05
+things like make.com or zapier and so that's the first part and what we can do now is we can focus on the second part
+Retrieving data from RAG chatbot
+2:05:12
+where we're essentially trying to recall this data with an AI agent so let's go ahead and do that we're going to hit the
+2:05:18
+plus button and add an advanced uh AI agent in here and effectively um this is
+2:05:24
+good to go pretty much outside of the box we can just cancel out of this and I'm going to drag this up a bit and
+2:05:31
+similarly to before we need the brain of the operation which is the chat model which is just going to be open AI GPT 40
+2:05:38
+and we can put this over here and then like before we have the memory which is the window buffer memory it's just the
+2:05:43
+built-in memory from nadn so that we can remember past conversations and ask follow-up questions and all that kind of
+2:05:49
+stuff and essentially the last thing that we're doing is we're just calling that in memory Vector store again so
+2:05:55
+memory we're going to type in memory store again and more or less this is like the company you can name this
+2:06:02
+whatever you want but company knowledge base and please call this tool this is
+2:06:08
+just a description of when to use it please call this tool when the user has
+2:06:14
+specific questions about um the company
+2:06:19
+SLC contract okay perfect and we're going to go ahead and save this and one last thing is we
+2:06:27
+need an embedding model and so we're going to choose GPT 40 and or sorry
+2:06:33
+we're going to choose um the embedding three small right and just make sure that whatever you're using on one side
+2:06:40
+you're also using on the other I'm just using this out of the box but essentially when you think about those
+2:06:45
+embeddings right um more or less this is the part to encode the message in the
+2:06:51
+vector database so that we can store it in a way that we can retrieve information really easily right but how
+2:06:58
+we do that is through this Vector embedding this is what turns your text it starts with cont content like that
+2:07:05
+PDF file so this is the PDF and then we go into the embedding model where we're changing it using that text three small
+2:07:13
+from chat gbt we're embedding that text and that document into these numbers right so we're essentially going from
+2:07:19
+like hey we have this contract here and we're taining taking all of this text
+2:07:25
+right and then we're going to merge that into this Vector database and how we do
+2:07:31
+that is by taking that text and putting it into an embedding model to change the words into like these characters here
+2:07:38
+right and so that's effectively more or less what's going on here and so if we Circle back to this um now what we can
+2:07:46
+do is we can just give this a shot and see if this works so I'm just going to say hey can you tell me the date on the
+2:07:55
+contract and let's see the response that it gives so it says the date of the
+2:08:03
+contract is November 19th 2024 and so it knows this not because it's just you
+2:08:09
+know answering randomly but it's pulling this in from the contract and so it
+2:08:14
+looks like um there may be yeah so essentially it's
+2:08:20
+pulling this in from November 26 uh 2024 and so there looks like it
+2:08:28
+looks like there's a lot of different dates here so um let's try another one
+2:08:34
+here can you tell me what services are
+2:08:40
+being offered and let's go ahead and see and this isn't perfect every single time
+2:08:45
+especially when we're working with such limited data but it says DJ Services are offered photography services are offered
+2:08:52
+and videography services are offered and then in addition you have all these upsells that you can also ask and that's
+2:08:59
+pretty cool it got it right spot on the first time and so we have multiple Services we have DJ Services here and
+2:09:06
+then we have um we have photography Services here and then we have as well
+2:09:13
+videography Services here and so this is essentially how you can create a rag
+2:09:18
+system that's trained on the history of your company's data and you can do it like really really fast honestly the hardest part is just connecting in
+2:09:25
+Google Drive Right which is kind of a shame because it should not be the hardest part it should be a really simple process but um effectively that's
+2:09:32
+it that's how you can create a rag system that's just trained on the history of your company's data and in a nutshell guys that's more or less it
+2:09:39
+that's literally everything you need to know about n8n if you made it this far then you're pretty much a pro uh and you
+2:09:46
+can go off and create your own applications you can you know um probably build will already built five
+2:09:52
+applications at this point in time and I'm sure you can build your six so thank you guys so much for watching like I
+2:09:57
+really appreciate it if you made it this far and if you guys are interested in you know getting more help and and all
+2:10:02
+that kind of stuff then you can definitely take a look at my school Community here if you guys want to join yeah you can just go ahead and sign up
+2:10:08
+you can get um you can get access to group calls with myself you can also get over a hundred different videos that are
+2:10:16
+unreleased on YouTube and tons of blueprints and all of that kind of stuff and so yeah I really appreciate you you
+2:10:21
+guys sticking through this with me and wish you the best of luck with your journey on NN All of These Blueprints
+2:10:27
+are going to be down below if you haven't downloaded them already and you can just come in here click import from file and you're good to go I'll see you
