@@ -51,6 +51,17 @@ The tutorial guides viewers through the creation of AI agents with capabilities 
 
 By following this tutorial, viewers can learn to build AI agents that automate complex tasks, integrate multiple services, and enhance productivity through intelligent automation.
 
+![Calendar and Document events](https://github.com/user-attachments/assets/51f37c43-69fd-4d35-b646-75a3af081384)
+
+![New Lead workflow](https://github.com/user-attachments/assets/8b249f84-47c2-4ef4-99e4-a8175b392809)
+
+![Reporting Workflow](https://github.com/user-attachments/assets/6ae13d1f-f522-476c-a818-b3a674fa0763)
+
+![Webhooks-HTTP Request](https://github.com/user-attachments/assets/d348d141-f27e-45fc-939c-47acfc02ea06)
+
+![RAG-get](https://github.com/user-attachments/assets/36164fda-50af-4878-a4e9-9316394990a7)
+
+![RAG-read](https://github.com/user-attachments/assets/d30d8209-1705-4b9e-891c-a078b5dc5f2b)
 
 
 ## Chapters
